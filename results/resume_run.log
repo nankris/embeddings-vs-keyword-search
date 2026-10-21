@@ -1,0 +1,47 @@
+corpus=5183 queries_with_qrels=300
+running bm25
+saved bm25
+running dense_minilm
+saved dense_minilm
+running dense_bge
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|██████████| 199/199 [00:00<00:00, 12008.73it/s]
+  embedded 5183 with BAAI/bge-small-en-v1.5 in 1241.4s -> /workspace/work/tig/120-embeddings-vs-keyword-search/scripts/../results/emb_dense_bge_docs_d04f9742.npy
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|██████████| 199/199 [00:00<00:00, 4711.42it/s]
+  embedded 1109 with BAAI/bge-small-en-v1.5 in 26.7s -> /workspace/work/tig/120-embeddings-vs-keyword-search/scripts/../results/emb_dense_bge_queries_d04f9742.npy
+saved dense_bge
+[4/4] hybrid RRF(bm25, dense_minilm) ...
+saved runs
+paraphrase subset: 30 queries, jaccard<= 0.025
+
+=== RESULTS (all queries, n=300) ===
+bm25           nDCG@10=0.6523  Recall@10=0.7757
+dense_minilm   nDCG@10=0.6451  Recall@10=0.7833
+dense_bge      nDCG@10=0.7200  Recall@10=0.8452
+hybrid         nDCG@10=0.6840  Recall@10=0.8059
+
+=== PAIRED BOOTSTRAP 95% CI (all queries) ===
+nDCG@10    dense_bge-bm25           diff=+0.0677 [+0.0304,+0.1055]
+nDCG@10    dense_bge-dense_minilm   diff=+0.0749 [+0.0476,+0.1036]
+nDCG@10    dense_minilm-bm25        diff=-0.0072 [-0.0451,+0.0312]
+nDCG@10    hybrid-bm25              diff=+0.0317 [+0.0103,+0.0539]
+nDCG@10    hybrid-dense_bge         diff=-0.0360 [-0.0674,-0.0047]
+nDCG@10    hybrid-dense_minilm      diff=+0.0389 [+0.0102,+0.0673]
+Recall@10  dense_bge-bm25           diff=+0.0696 [+0.0256,+0.1148]
+Recall@10  dense_bge-dense_minilm   diff=+0.0619 [+0.0264,+0.0986]
+Recall@10  dense_minilm-bm25        diff=+0.0077 [-0.0373,+0.0523]
+Recall@10  hybrid-bm25              diff=+0.0302 [+0.0034,+0.0583]
+Recall@10  hybrid-dense_bge         diff=-0.0393 [-0.0798,+0.0008]
+Recall@10  hybrid-dense_minilm      diff=+0.0226 [-0.0177,+0.0637]
+
+=== paraphrase subset (30 low-overlap queries) ===
+bm25           nDCG@10=0.3439  Recall@10=0.4000
+dense_minilm   nDCG@10=0.4152  Recall@10=0.5667
+dense_bge      nDCG@10=0.4823  Recall@10=0.6333
+hybrid         nDCG@10=0.3785  Recall@10=0.4333
+Recall@10|dense_bge-bm25           diff=+0.2333 [+0.0000,+0.4667]
+Recall@10|dense_minilm-bm25        diff=+0.1667 [-0.0333,+0.3667]
+Recall@10|hybrid-bm25              diff=+0.0333 [-0.0667,+0.1333]
+nDCG@10|dense_bge-bm25             diff=+0.1384 [+0.0082,+0.2837]
+nDCG@10|dense_minilm-bm25          diff=+0.0713 [-0.0216,+0.1758]
+nDCG@10|hybrid-bm25                diff=+0.0346 [-0.0197,+0.0973]

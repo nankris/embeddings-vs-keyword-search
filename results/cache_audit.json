@@ -1,0 +1,31 @@
+{
+  "model": "sentence-transformers/all-MiniLM-L6-v2",
+  "max_seq_length": 256,
+  "samples": {
+    "docs": {
+      "indices": [
+        0,
+        2500,
+        5182
+      ],
+      "cosine_agreement": [
+        0.9999999403953552,
+        1.0000001192092896,
+        1.0
+      ]
+    },
+    "queries": {
+      "indices": [
+        0,
+        500,
+        1108
+      ],
+      "cosine_agreement": [
+        1.0,
+        1.0,
+        1.000000238418579
+      ]
+    }
+  },
+  "passed": true
+}

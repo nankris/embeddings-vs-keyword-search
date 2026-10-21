@@ -1,0 +1,67 @@
+{
+  "python": "3.12.15 (main, Oct  6 2026, 02:08:11) [GCC 14.2.0]",
+  "platform": "Linux-6.12.110+-aarch64-with-glibc2.41",
+  "packages": {
+    "torch": "2.14.1+cpu",
+    "transformers": "5.19.0",
+    "sentence-transformers": "6.1.0",
+    "rank-bm25": "0.2.2",
+    "numpy": "2.5.4",
+    "matplotlib": "3.11.2",
+    "datasets": "5.1.0"
+  },
+  "gpu": null,
+  "colab_cu": 0,
+  "data_sources": [
+    "https://huggingface.co/datasets/BeIR/scifact",
+    "https://huggingface.co/datasets/BeIR/scifact-qrels"
+  ],
+  "sha256": {
+    "corpus.jsonl": "ca3bc259b9f1a672842c2688f154a28faa3891f7c1ec6dd950abbaf6cd73254f",
+    "emb_dense_bge_docs_d04f9742.npy": "87be1e03214b73ecf39948db7ea9936707fddc0ad09477f006e7224d1c4936d0",
+    "emb_dense_bge_queries_d04f9742.npy": "a2f46bda7cd46b395f12e1050a6ef090cd695981389f6ab4ed41f6d7f123af12",
+    "emb_dense_minilm_docs_aac97e68.npy": "c4abb20d5ed9c3b1aed1ef9c3024a490a7e6bb18befc9e90fcc4ed1d870d017c",
+    "emb_dense_minilm_queries_aac97e68.npy": "07d262867eaadb4f426902b13a40b620210fc0e0a15a6653f27eac94430e0f88",
+    "qrels.jsonl": "13e72c14a28311fc1f9dfffa27dc170a6af1c4ebe0d01b2df99c7491ea85fc5a",
+    "queries.jsonl": "4caf17a3f5ad9f962c2f84e16feedc8e7b571d9f341849a3e461dc97755591b1"
+  },
+  "cached_model_revisions": {
+    "BAAI/bge-small-en-v1.5": [
+      "5c38ec7c405ec4b44b94cc5a9bb96e735b38267a"
+    ],
+    "sentence-transformers/all-MiniLM-L6-v2": [
+      "1110a243fdf4706b3f48f1d95db1a4f5529b4d41"
+    ]
+  },
+  "resumed_cache_audit": {
+    "model": "sentence-transformers/all-MiniLM-L6-v2",
+    "max_seq_length": 256,
+    "samples": {
+      "docs": {
+        "indices": [
+          0,
+          2500,
+          5182
+        ],
+        "cosine_agreement": [
+          0.9999999403953552,
+          1.0000001192092896,
+          1.0
+        ]
+      },
+      "queries": {
+        "indices": [
+          0,
+          500,
+          1108
+        ],
+        "cosine_agreement": [
+          1.0,
+          1.0,
+          1.000000238418579
+        ]
+      }
+    },
+    "passed": true
+  }
+}
