@@ -1,0 +1,18 @@
+{
+  "seconds": 45.451876640319824,
+  "encode_seconds": {
+    "docs": 36.45716047286987,
+    "queries": 6.991612672805786
+  },
+  "search_seconds": 1.0343425273895264,
+  "input_tokens_truncated_nonpadding": 2131184,
+  "tokens_by_kind": {
+    "docs": 1784367,
+    "queries": 346817
+  },
+  "output_tokens": 0,
+  "model": "BAAI/bge-small-en-v1.5",
+  "revision": "5c38ec7c405ec4b44b94cc5a9bb96e735b38267a",
+  "max_seq_length": 512,
+  "resumed_chunks_included_in_token_total": true
+}

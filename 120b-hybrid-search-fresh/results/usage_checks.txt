@@ -1,0 +1,24 @@
+1792363660.4121728
+Current balance: 119.06 compute units
+Usage rate: 3.08/hr
+Active assignments: 2
+1792363940.8570325
+Current balance: 118.96 compute units
+Usage rate: 3.08/hr
+Active assignments: 2
+1792364192.4759943
+Current balance: 118.70 compute units
+Usage rate: 3.08/hr
+Active assignments: 2
+1792364443.6357074
+Current balance: 118.45 compute units
+Usage rate: 3.08/hr
+Active assignments: 2
+1792364734.205886
+Current balance: 118.19 compute units
+Usage rate: 3.08/hr
+Active assignments: 2
+1792365407.1155193
+Current balance: 117.68 compute units
+Usage rate: 3.08/hr
+Active assignments: 2

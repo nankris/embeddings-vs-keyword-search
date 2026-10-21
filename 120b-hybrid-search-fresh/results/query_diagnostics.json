@@ -1,0 +1,95 @@
+{
+  "fiqa": {
+    "exploratory": true,
+    "queries_improved": 105,
+    "queries_hurt": 281,
+    "queries_unchanged": 262,
+    "gain_vs_qwen": -0.07211639092883827,
+    "largest_gain_examples": [
+      {
+        "qid": "2154",
+        "query": "What tax software automatically determines the best filing status, etc?",
+        "ndcg_change": 0.7109351736821121
+      },
+      {
+        "qid": "10601",
+        "query": "Bitcoin Cost Basis Purchases",
+        "ndcg_change": 0.5
+      }
+    ],
+    "largest_loss_examples": [
+      {
+        "qid": "945",
+        "query": "Paid by an American company but working from France: where should I pay taxes?",
+        "ndcg_change": -1.0
+      },
+      {
+        "qid": "4813",
+        "query": "Dealer Financing Fell Through on vehicle purchase: Scam?",
+        "ndcg_change": -0.6666666666666667
+      }
+    ]
+  },
+  "nfcorpus": {
+    "exploratory": true,
+    "queries_improved": 93,
+    "queries_hurt": 103,
+    "queries_unchanged": 127,
+    "gain_vs_qwen": -0.004321240880941146,
+    "largest_gain_examples": [
+      {
+        "qid": "PLAIN-892",
+        "query": "chickpeas",
+        "ndcg_change": 0.42302937529594087
+      },
+      {
+        "qid": "PLAIN-2490",
+        "query": "The Actual Benefit of Diet vs. Drugs",
+        "ndcg_change": 0.40189806842349685
+      }
+    ],
+    "largest_loss_examples": [
+      {
+        "qid": "PLAIN-711",
+        "query": "blood clots",
+        "ndcg_change": -0.4818809355796684
+      },
+      {
+        "qid": "PLAIN-3026",
+        "query": "Vitamin C-Enriched Bacon",
+        "ndcg_change": -0.36907024642854247
+      }
+    ]
+  },
+  "arguana": {
+    "exploratory": true,
+    "queries_improved": 161,
+    "queries_hurt": 684,
+    "queries_unchanged": 561,
+    "gain_vs_qwen": -0.12903900086224804,
+    "largest_gain_examples": [
+      {
+        "qid": "test-health-hpehwadvoee-pro02a",
+        "query": "The guilt may be too heavy a burden for the relative who could have saved a life  It is not fair to ask of a parent to live with the guilt of having been able to save their child and not doing so. Believing that they are guilty of their child\u2019s death can cause Post-Traumatic Stress Syndrome, which in turn is a major cause of suicides. [1]  [1] Monforte-Royo, C., et al. \u201cThe wish to hasten death: a review of clinical studies.\u201d Psycho-Oncology 20.8 (2011): 795-804.",
+        "ndcg_change": 0.6666666666666667
+      },
+      {
+        "qid": "test-religion-msgfhwbamec-con01a",
+        "query": "It\u2019s impossible to police such a law.  There is simply no feasible way of enforcing laws against arranged marriages, particularly as it is almost guaranteed that many communities will continue to practice them regardless. It will be impossible to tell whether a marriage has been started by arrangement if the community and the couple are unwilling to go to the police and most will be unwilling to report their own families when practicing a cultural tradition. Those who are deeply dissatisfied and beaten may do so but in this instance the law already allows divorce and abuse is punishable by the full force of the law.  Given that forced marriages have already been outlawed and that it has been established that arranged marriages in themselves cause few provable harms, the resources of any police force would arguably be wasted on enforcing such a law; investigations would be very intrusive and labour intensive.  Furthermore, given the continuation of practices like honour killings, [1] as well as rape and domestic violence, law enforcement personnel would be better placed targeting far more heinous crimes than arranged marriages. A tangible harm could arise from the police being made to direct their energies towards such minor misdemeanours, in that there could be fewer resources available for more serious crimes.  [1] \u2018Europe Grapples with \u201cHonour Killings,\u201d DW.de -  (accessed 17 September 2012)",
+        "ndcg_change": 0.6666666666666667
+      }
+    ],
+    "largest_loss_examples": [
+      {
+        "qid": "test-science-ciidfaihwc-con03a",
+        "query": "People often react poorly to being censored by their governments.  In countries that do currently practice censorship of Internet information, their citizens often interpret this as suspicious and dictatorial behaviour. For example, in China growing discontent with the government\u2019s constant censorship has led to public outrage [1] , and political satire which heavily criticises the government [2] . Censorship can easily be used malevolently and is not always in public interest; this motion supports the ignorance of the population by hiding information and the reality of the situation. Therefore the cost of suspicion by the population of the state makes censorship of any kind less than worthwhile and it is better to allow individuals to make their own choices.  [1] Bennett, Isabella, \u2018Media Censorship in China\u2019, Council on Foreign Relations, 7 March 2011,  on 09/09/11  [2] Bennett, Isabella, \u2018Media Censorship in China\u2019, Council on Foreign Relations, 7 March 2011,  on 09/09/11.",
+        "ndcg_change": -1.0
+      },
+      {
+        "qid": "test-education-udfakusma-pro02a",
+        "query": "Most universities are publically funded so should have to be open with their materials.  The United States University system is famously expensive and as a result it is probably the system in a developed country that has least public funding yet $346.8billion was spent, mostly by the states, on higher education in 2008-9. [1] In Europe almost 85% of universities funding came from government sources. [2] Considering the huge amounts of money spent on universities by taxpayers they should be able to demand access to the academic work those institutions produce.  Even in countries where there are tuition fees that make up some of the funding for the university it is right that the public should have access to these materials as the tuition fees are being paid for the personal teaching time provided by the lecturers not for the academics\u2019 publications. Moreover those who have paid for a university course would benefit by the materials still being available to access after they have finished university  [1] Caplan, Bruan, \u201cCorrection: Total Government Spending on Higher Education\u201d, Library of Economics and Liberty, 16 November 2012,   [2] Vught, F., et al., \u201cFunding Higher Education: A View Across Europe\u201d, Ben Jongbloed Center for Higher Education Policy Studies University of Twente, 2010.",
+        "ndcg_change": -0.7109351736821121
+      }
+    ]
+  }
+}

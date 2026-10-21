@@ -1,0 +1,8 @@
+{
+  "reason": "complete",
+  "unix": 1792365408.9358613,
+  "gpu_wall_minutes": 30.11907189687093,
+  "rate_cu_per_hour": 1.54,
+  "estimated_cu": 0.773056178686354,
+  "stop_output": "[colab] Stopping session 'b9-120b'...\n[colab] Session terminated.\n"
+}

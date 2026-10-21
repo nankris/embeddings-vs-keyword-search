@@ -1,0 +1,86 @@
+2026-10-18T19:38:31.042027+00:00 ['sessions'] [b9-101c] gpu-l4-s-kkb-ass1a1-3rca60g8nu5iz | Hardware: L4 | Shape: Standard | Variant: GPU
+[b9-118] gpu-l4-s-kkb-ass1b1-3qahxmhhzverb | Hardware: L4 | Shape: Standard | Variant: GPU
+ 
+2026-10-18T19:38:32.068380+00:00 ['usage'] Current balance: 121.75 compute units
+Usage rate: 3.08/hr
+Active assignments: 2
+ 
+2026-10-18T19:38:33.482065+00:00 ['new', '--gpu', 'L4', '-s', 'b9-120b'] [colab] Creating session 'b9-120b'...
+ [colab] Allocation refused (precondition failed). This can mean too many active sessions, or a temporary usage or capacity limit for the requested runtime. Run `colab stop` to free up a session, wait and retry, or try a different accelerator.
+
+2026-10-18T19:43:35.254410+00:00 ['sessions'] [b9-101c] gpu-l4-s-kkb-ass1a1-3rca60g8nu5iz | Hardware: L4 | Shape: Standard | Variant: GPU
+[b9-118] gpu-l4-s-kkb-ass1b1-3qahxmhhzverb | Hardware: L4 | Shape: Standard | Variant: GPU
+ 
+2026-10-18T19:43:37.022184+00:00 ['usage'] Current balance: 121.50 compute units
+Usage rate: 3.08/hr
+Active assignments: 2
+ 
+2026-10-18T19:43:38.919250+00:00 ['new', '--gpu', 'L4', '-s', 'b9-120b'] [colab] Creating session 'b9-120b'...
+ [colab] Allocation refused (precondition failed). This can mean too many active sessions, or a temporary usage or capacity limit for the requested runtime. Run `colab stop` to free up a session, wait and retry, or try a different accelerator.
+
+2026-10-18T19:48:41.470888+00:00 ['sessions'] [b9-101c] gpu-l4-s-kkb-ass1a1-3rca60g8nu5iz | Hardware: L4 | Shape: Standard | Variant: GPU
+[b9-118] gpu-l4-s-kkb-ass1b1-3qahxmhhzverb | Hardware: L4 | Shape: Standard | Variant: GPU
+ 
+2026-10-18T19:48:43.934215+00:00 ['usage'] Current balance: 121.24 compute units
+Usage rate: 3.08/hr
+Active assignments: 2
+ 
+2026-10-18T19:48:46.042764+00:00 ['new', '--gpu', 'L4', '-s', 'b9-120b'] [colab] Creating session 'b9-120b'...
+ [colab] Allocation refused (precondition failed). This can mean too many active sessions, or a temporary usage or capacity limit for the requested runtime. Run `colab stop` to free up a session, wait and retry, or try a different accelerator.
+
+2026-10-18T19:53:47.675311+00:00 ['sessions'] [b9-101c] gpu-l4-s-kkb-ass1a1-3rca60g8nu5iz | Hardware: L4 | Shape: Standard | Variant: GPU
+[b9-118] gpu-l4-s-kkb-ass1b1-3qahxmhhzverb | Hardware: L4 | Shape: Standard | Variant: GPU
+ 
+2026-10-18T19:53:49.284424+00:00 ['usage'] Current balance: 120.98 compute units
+Usage rate: 3.08/hr
+Active assignments: 2
+ 
+2026-10-18T19:53:52.402540+00:00 ['new', '--gpu', 'L4', '-s', 'b9-120b'] [colab] Creating session 'b9-120b'...
+ [colab] Allocation refused (precondition failed). This can mean too many active sessions, or a temporary usage or capacity limit for the requested runtime. Run `colab stop` to free up a session, wait and retry, or try a different accelerator.
+
+2026-10-18T19:58:53.560713+00:00 ['sessions'] [b9-101c] gpu-l4-s-kkb-ass1a1-3rca60g8nu5iz | Hardware: L4 | Shape: Standard | Variant: GPU
+[b9-118] gpu-l4-s-kkb-ass1b1-3qahxmhhzverb | Hardware: L4 | Shape: Standard | Variant: GPU
+ 
+2026-10-18T19:58:54.777648+00:00 ['usage'] Current balance: 120.73 compute units
+Usage rate: 3.08/hr
+Active assignments: 2
+ 
+2026-10-18T19:58:56.116899+00:00 ['new', '--gpu', 'L4', '-s', 'b9-120b'] [colab] Creating session 'b9-120b'...
+ [colab] Allocation refused (precondition failed). This can mean too many active sessions, or a temporary usage or capacity limit for the requested runtime. Run `colab stop` to free up a session, wait and retry, or try a different accelerator.
+
+2026-10-18T20:03:57.375612+00:00 ['sessions'] [b9-101c] gpu-l4-s-kkb-ass1a1-3rca60g8nu5iz | Hardware: L4 | Shape: Standard | Variant: GPU
+[b9-118] gpu-l4-s-kkb-ass1b1-3qahxmhhzverb | Hardware: L4 | Shape: Standard | Variant: GPU
+ 
+2026-10-18T20:03:58.444776+00:00 ['usage'] Current balance: 120.21 compute units
+Usage rate: 3.08/hr
+Active assignments: 2
+ 
+2026-10-18T20:04:00.095291+00:00 ['new', '--gpu', 'L4', '-s', 'b9-120b'] [colab] Creating session 'b9-120b'...
+ [colab] Allocation refused (precondition failed). This can mean too many active sessions, or a temporary usage or capacity limit for the requested runtime. Run `colab stop` to free up a session, wait and retry, or try a different accelerator.
+
+2026-10-18T20:09:01.272237+00:00 ['sessions'] [b9-101c] gpu-l4-s-kkb-ass1a1-3rca60g8nu5iz | Hardware: L4 | Shape: Standard | Variant: GPU
+[b9-118] gpu-l4-s-kkb-ass1b1-3qahxmhhzverb | Hardware: L4 | Shape: Standard | Variant: GPU
+ 
+2026-10-18T20:09:02.544047+00:00 ['usage'] Current balance: 119.95 compute units
+Usage rate: 3.08/hr
+Active assignments: 2
+ 
+2026-10-18T20:09:04.271180+00:00 ['new', '--gpu', 'L4', '-s', 'b9-120b'] [colab] Creating session 'b9-120b'...
+ [colab] Allocation refused (precondition failed). This can mean too many active sessions, or a temporary usage or capacity limit for the requested runtime. Run `colab stop` to free up a session, wait and retry, or try a different accelerator.
+
+2026-10-18T22:46:36.081853+00:00 ['sessions'] [colab] No active sessions found on server.
+ 
+2026-10-18T22:46:37.564112+00:00 ['usage'] Current balance: 119.06 compute units
+Usage rate: 0.00/hr
+Active assignments: 0
+ 
+2026-10-18T22:46:41.789690+00:00 ['new', '--gpu', 'L4', '-s', 'b9-120b'] [colab] Creating session 'b9-120b'...
+[colab] Session READY.
+ 
+2026-10-18T22:46:43.233626+00:00 ['status', '-s', 'b9-120b'] [b9-120b] gpu-l4-s-kkb-ass1b0-1u2jk9hsjofxk | Hardware: L4 | Shape: Standard | Variant: GPU | Status: IDLE
+ 
+2026-10-18T22:47:05.664700+00:00 ['upload', '-s', 'b9-120b', 'results/input.tar.gz', '/content/120b_input.tar.gz'] [colab] Uploaded 'results/input.tar.gz' to '/content/120b_input.tar.gz'
+ 
+2026-10-18T22:47:09.897898+00:00 ['exec', '-s', 'b9-120b', '-f', 'scripts/launch_remote.py'] DETACHED_PID 2590
+4
+ 

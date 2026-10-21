@@ -1,0 +1,18 @@
+{
+  "seconds": 727.6445205211639,
+  "encode_seconds": {
+    "docs": 718.6846964359283,
+    "queries": 1.1927623748779297
+  },
+  "search_seconds": 4.0609166622161865,
+  "input_tokens_truncated_nonpadding": 9426654,
+  "tokens_by_kind": {
+    "docs": 9405007,
+    "queries": 21647
+  },
+  "output_tokens": 0,
+  "model": "Qwen/Qwen3-Embedding-0.6B",
+  "revision": "97b0c614be4d77ee51c0cef4e5f07c00f9eb65b3",
+  "max_seq_length": 512,
+  "resumed_chunks_included_in_token_total": true
+}

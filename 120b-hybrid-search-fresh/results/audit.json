@@ -1,0 +1,47 @@
+{
+  "fiqa": {
+    "nqueries": 648,
+    "qrels_missing_from_corpus": [],
+    "systems_checked": 5,
+    "rankings_unique": true,
+    "metrics_recomputed_independent_python": true,
+    "fusion_recomputed": true
+  },
+  "nfcorpus": {
+    "nqueries": 323,
+    "qrels_missing_from_corpus": [],
+    "systems_checked": 5,
+    "rankings_unique": true,
+    "metrics_recomputed_independent_python": true,
+    "fusion_recomputed": true
+  },
+  "arguana": {
+    "nqueries": 1406,
+    "qrels_missing_from_corpus": [
+      {
+        "qid": "test-education-ufsdfkhbwu-con03a",
+        "docid": "test-education-ufsdfkhbwu-con03b"
+      },
+      {
+        "qid": "test-free-speech-debate-yfsdfkhbwu-con03a",
+        "docid": "test-free-speech-debate-yfsdfkhbwu-con03b"
+      },
+      {
+        "qid": "test-politics-dhwem-pro06a",
+        "docid": "test-politics-dhwem-pro06b"
+      },
+      {
+        "qid": "test-science-sghwbdgmo-con03a",
+        "docid": "test-science-sghwbdgmo-con03b"
+      },
+      {
+        "qid": "test-society-asfhwapg-con04a",
+        "docid": "test-society-asfhwapg-con04b"
+      }
+    ],
+    "systems_checked": 5,
+    "rankings_unique": true,
+    "metrics_recomputed_independent_python": true,
+    "fusion_recomputed": true
+  }
+}

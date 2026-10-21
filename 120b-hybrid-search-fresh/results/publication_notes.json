@@ -1,0 +1,14 @@
+{
+  "source_article": "https://doi.org/10.1145/1571941.1572114",
+  "source_author_copy": "https://cormack.uwaterloo.ca/cormack/cormacksigir09-rrf.pdf",
+  "source_quote_verified": "consistently yields better results than any individual system",
+  "evidence_scope": "The 2009 paper motivates the direction, not a guaranteed 2 pp improvement for these modern retrievers or domains.",
+  "pilot_observation_before_confirmation": "Qwen hybrid 72.7379%, strongest standalone BGE 71.2707%, gap 1.4672 pp. Even the pilot point estimate did not reach the practical 2 pp threshold against the strongest single.",
+  "interpretation_constraints": [
+    "Retain the committed practical-margin verdict regardless of a positive mean or isolated dataset win.",
+    "Three fixed datasets and query-level bootstrap do not estimate uncertainty across future domains.",
+    "This is weighted RRF over two retrievers, not a replication of the original paper's exact benchmark.",
+    "Batch inference timings do not estimate online request p95 latency.",
+    "The generic web-search query instruction may be a poor fit for argument matching; do not tune it after confirmation."
+  ]
+}

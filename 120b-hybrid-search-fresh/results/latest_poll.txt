@@ -1,0 +1,30 @@
+2026-10-18T23:11:35.987558+00:00 ENCODE arguana qwen docs 6144/8674 tokens=1309018 seconds=96.4
+2026-10-18T23:11:43.297899+00:00 ENCODE arguana qwen docs 6656/8674 tokens=1411876 seconds=103.7
+2026-10-18T23:11:51.007442+00:00 ENCODE arguana qwen docs 7168/8674 tokens=1519717 seconds=111.4
+2026-10-18T23:11:58.307841+00:00 ENCODE arguana qwen docs 7680/8674 tokens=1620552 seconds=118.7
+2026-10-18T23:12:06.103592+00:00 ENCODE arguana qwen docs 8192/8674 tokens=1727192 seconds=126.5
+2026-10-18T23:12:13.255208+00:00 ENCODE arguana qwen docs 8674/8674 tokens=1824734 seconds=133.7
+2026-10-18T23:12:23.249070+00:00 ENCODE arguana qwen queries 512/1406 tokens=135926 seconds=10.0
+2026-10-18T23:12:33.165677+00:00 ENCODE arguana qwen queries 1024/1406 tokens=269612 seconds=19.9
+2026-10-18T23:12:40.628677+00:00 ENCODE arguana qwen queries 1406/1406 tokens=371305 seconds=27.4
+2026-10-18T23:12:41.674502+00:00 DONE arguana qwen: {'seconds': 165.72158885002136, 'encode_seconds': {'docs': 133.66795134544373, 'queries': 27.363545417785645}, 'search_seconds': 1.0440113544464111, 'input_tokens_truncated_nonpadding': 2196039, 'tokens_by_kind': {'docs': 1824734, 'queries': 371305}, 'output_tokens': 0, 'model': 'Qwen/Qwen3-Embedding-0.6B', 'revision': '97b0c614be4d77ee51c0cef4e5f07c00f9eb65b3', 'max_seq_length': 512, 'resumed_chunks_included_in_token_total': True}
+2026-10-18T23:12:46.723581+00:00 SCORED arguana
+2026-10-18T23:12:46.723955+00:00 WORKER COMPLETE
+
+DONE True ERROR False
+    PID     ELAPSED COMMAND
+      1       39:01 /sbin/docker-init -- /datalab/run.sh
+      7       39:01 /tools/node/bin/node /datalab/web/app.js
+      9       39:00 /bin/bash -e /usr/local/colab/bin/oom_monitor.sh
+     11       39:00 /bin/bash -e /datalab/run.sh
+     12       39:00 /usr/colab/bin/kernel_manager_proxy --listen_port=6000 --target_port=9000 --logtostderr --listen_host=172.28.0.12 --target_host=172.28.0.12 --tunnel_background_save_url=https://colab.research.google.com/tun/m/cc48301118ce562b961b3c22d803539adc1e0c19/gpu-l4-s-kkb-ass1b0-1u2jk9hsjofxk --tunnel_background_save_delay=10s --tunnel_periodic_background_save_frequency=30m0s --enable_output_coalescing=true --output_coalescing_required=true --use_oneplatform_for_bg_save=true
+     49       39:00 tail -n +0 -F /root/.config/Google/DriveFS/Logs/dpb.txt
+     55       39:00 tail -n +0 -F /root/.config/Google/DriveFS/Logs/drive_fs.txt
+     93       38:58 [python3] <defunct>
+     94       38:58 python3 /usr/local/bin/colab-fileshim.py
+    133       38:58 sshd: /usr/sbin/sshd [listener] 0 of 1-1 startups
+    148       38:57 /usr/bin/python3 /usr/local/bin/jupyter-server --debug --transport="ipc" --ip=172.28.0.12 --ServerApp.token= --port=9000 --FileContentsManager.root_dir=/ --FileContentsManager.allow_hidden=True --ServerApp.log_format="|%(levelname)s|%(message)s" --ServerApp.iopub_data_rate_limit=1e10 --MappingKernelManager.root_dir=/content
+   2559       29:09 /usr/bin/python3 -m colab_kernel_launcher -f /root/.local/share/jupyter/runtime/kernel-41844168-5994-41dc-b87d-056e661a687f.json
+   9889       00:00 sleep 1
+   9891 441077234-00:18:40 ps -eo pid,etime,args
+
