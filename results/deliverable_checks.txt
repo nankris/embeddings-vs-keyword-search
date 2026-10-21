@@ -1,0 +1,1 @@
+PASS: publication bundle, 1340 blog words, PNG resolution, fixed verdict rule, timing, CU cap and GPU evidence

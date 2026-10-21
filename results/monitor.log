@@ -1,0 +1,704 @@
+| N/A   51C    P8             13W /   72W |       0MiB /  23034MiB |      0%      Default |
+|                                         |                        |                  N/A |
++-----------------------------------------+------------------------+----------------------+
+
++-----------------------------------------------------------------------------------------+
+| Processes:                                                                              |
+|  GPU   GI   CI              PID   Type   Process name                        GPU Memory |
+|        ID   ID                                                               Usage      |
+|=========================================================================================|
+|  No running processes found                                                             |
++-----------------------------------------------------------------------------------------+
+
+
+DONE False ERROR False
+    PID     ELAPSED COMMAND
+      1       10:03 /sbin/docker-init -- /datalab/run.sh
+      7       10:03 /tools/node/bin/node /datalab/web/app.js
+      9       10:03 /bin/bash -e /usr/local/colab/bin/oom_monitor.sh
+     11       10:03 /bin/bash -e /datalab/run.sh
+     12       10:03 /usr/colab/bin/kernel_manager_proxy --listen_port=6000 --target_port=9000 --logtostderr --listen_host=172.28.0.12 --target_host=172.28.0.12 --tunnel_background_save_url=https://colab.research.google.com/tun/m/cc48301118ce562b961b3c22d803539adc1e0c19/gpu-l4-s-kkb-ass1b0-1u2jk9hsjofxk --tunnel_background_save_delay=10s --tunnel_periodic_background_save_frequency=30m0s --enable_output_coalescing=true --output_coalescing_required=true --use_oneplatform_for_bg_save=true
+     49       10:03 tail -n +0 -F /root/.config/Google/DriveFS/Logs/dpb.txt
+     55       10:03 tail -n +0 -F /root/.config/Google/DriveFS/Logs/drive_fs.txt
+     93       10:01 [python3] <defunct>
+     94       10:01 python3 /usr/local/bin/colab-fileshim.py
+    133       10:00 sshd: /usr/sbin/sshd [listener] 0 of 1-1 startups
+    148       09:59 /usr/bin/python3 /usr/local/bin/jupyter-server --debug --transport="ipc" --ip=172.28.0.12 --ServerApp.token= --port=9000 --FileContentsManager.root_dir=/ --FileContentsManager.allow_hidden=True --ServerApp.log_format="|%(levelname)s|%(message)s" --ServerApp.iopub_data_rate_limit=1e10 --MappingKernelManager.root_dir=/content
+   2559       00:12 /usr/bin/python3 -m colab_kernel_launcher -f /root/.local/share/jupyter/runtime/kernel-41844168-5994-41dc-b87d-056e661a687f.json
+   2590       00:10 python3 -u run.py
+   2663       00:00 sleep 1
+   2665       00:00 ps -eo pid,etime,args
+
+
+Current balance: 119.06 compute units
+Usage rate: 3.08/hr
+Active assignments: 2
+
+2026-10-18T22:47:53.611080+00:00 ENCODE scifact bge docs 1024/5183 tokens=330718 seconds=7.6
+2026-10-18T22:47:56.859199+00:00 ENCODE scifact bge docs 1536/5183 tokens=496392 seconds=10.8
+2026-10-18T22:48:00.038839+00:00 ENCODE scifact bge docs 2048/5183 tokens=664080 seconds=14.0
+2026-10-18T22:48:03.317487+00:00 ENCODE scifact bge docs 2560/5183 tokens=834381 seconds=17.3
+2026-10-18T22:48:06.476057+00:00 ENCODE scifact bge docs 3072/5183 tokens=998950 seconds=20.4
+2026-10-18T22:48:09.850683+00:00 ENCODE scifact bge docs 3584/5183 tokens=1172673 seconds=23.8
+2026-10-18T22:48:13.266333+00:00 ENCODE scifact bge docs 4096/5183 tokens=1347198 seconds=27.2
+2026-10-18T22:48:16.436717+00:00 ENCODE scifact bge docs 4608/5183 tokens=1511753 seconds=30.4
+2026-10-18T22:48:19.706110+00:00 ENCODE scifact bge docs 5120/5183 tokens=1675763 seconds=33.7
+2026-10-18T22:48:20.171037+00:00 ENCODE scifact bge docs 5183/5183 tokens=1693234 seconds=34.1
+2026-10-18T22:48:20.371716+00:00 ENCODE scifact bge queries 300/300 tokens=9253 seconds=0.2
+2026-10-18T22:48:20.505533+00:00 DONE scifact bge: {'seconds': 42.980305433273315, 'encode_seconds': {'docs': 34.14456605911255, 'queries': 0.1977369785308838}, 'search_seconds': 0.13317394256591797, 'input_tokens_truncated_nonpadding': 1702487, 'tokens_by_kind': {'docs': 1693234, 'queries': 9253}, 'output_tokens': 0, 'model': 'BAAI/bge-small-en-v1.5', 'revision': '5c38ec7c405ec4b44b94cc5a9bb96e735b38267a', 'max_seq_length': 512, 'resumed_chunks_included_in_token_total': True}
+
+DONE False ERROR False
+    PID     ELAPSED COMMAND
+      1       11:11 /sbin/docker-init -- /datalab/run.sh
+      7       11:11 /tools/node/bin/node /datalab/web/app.js
+      9       11:11 /bin/bash -e /usr/local/colab/bin/oom_monitor.sh
+     11       11:11 /bin/bash -e /datalab/run.sh
+     12       11:11 /usr/colab/bin/kernel_manager_proxy --listen_port=6000 --target_port=9000 --logtostderr --listen_host=172.28.0.12 --target_host=172.28.0.12 --tunnel_background_save_url=https://colab.research.google.com/tun/m/cc48301118ce562b961b3c22d803539adc1e0c19/gpu-l4-s-kkb-ass1b0-1u2jk9hsjofxk --tunnel_background_save_delay=10s --tunnel_periodic_background_save_frequency=30m0s --enable_output_coalescing=true --output_coalescing_required=true --use_oneplatform_for_bg_save=true
+     49       11:10 tail -n +0 -F /root/.config/Google/DriveFS/Logs/dpb.txt
+     55       11:10 tail -n +0 -F /root/.config/Google/DriveFS/Logs/drive_fs.txt
+     93       11:08 [python3] <defunct>
+     94       11:08 python3 /usr/local/bin/colab-fileshim.py
+    133       11:08 sshd: /usr/sbin/sshd [listener] 0 of 1-1 startups
+    148       11:07 /usr/bin/python3 /usr/local/bin/jupyter-server --debug --transport="ipc" --ip=172.28.0.12 --ServerApp.token= --port=9000 --FileContentsManager.root_dir=/ --FileContentsManager.allow_hidden=True --ServerApp.log_format="|%(levelname)s|%(message)s" --ServerApp.iopub_data_rate_limit=1e10 --MappingKernelManager.root_dir=/content
+   2559       01:20 /usr/bin/python3 -m colab_kernel_launcher -f /root/.local/share/jupyter/runtime/kernel-41844168-5994-41dc-b87d-056e661a687f.json
+   2590       01:18 python3 -u run.py
+   2988       00:00 sleep 1
+   2990       00:00 ps -eo pid,etime,args
+
+
+2026-10-18T22:48:19.706110+00:00 ENCODE scifact bge docs 5120/5183 tokens=1675763 seconds=33.7
+2026-10-18T22:48:20.171037+00:00 ENCODE scifact bge docs 5183/5183 tokens=1693234 seconds=34.1
+2026-10-18T22:48:20.371716+00:00 ENCODE scifact bge queries 300/300 tokens=9253 seconds=0.2
+2026-10-18T22:48:20.505533+00:00 DONE scifact bge: {'seconds': 42.980305433273315, 'encode_seconds': {'docs': 34.14456605911255, 'queries': 0.1977369785308838}, 'search_seconds': 0.13317394256591797, 'input_tokens_truncated_nonpadding': 1702487, 'tokens_by_kind': {'docs': 1693234, 'queries': 9253}, 'output_tokens': 0, 'model': 'BAAI/bge-small-en-v1.5', 'revision': '5c38ec7c405ec4b44b94cc5a9bb96e735b38267a', 'max_seq_length': 512, 'resumed_chunks_included_in_token_total': True}
+
+Loading weights:   0%|          | 0/310 [00:00<?, ?it/s]
+Loading weights:   0%|          | 1/310 [00:00<00:39,  7.76it/s]
+Loading weights: 100%|██████████| 310/310 [00:00<00:00, 1379.54it/s]
+2026-10-18T22:48:47.859801+00:00 ENCODE scifact qwen docs 512/5183 tokens=159640 seconds=12.4
+2026-10-18T22:48:59.986910+00:00 ENCODE scifact qwen docs 1024/5183 tokens=320282 seconds=24.5
+2026-10-18T22:49:12.470665+00:00 ENCODE scifact qwen docs 1536/5183 tokens=480607 seconds=37.0
+2026-10-18T22:49:24.925681+00:00 ENCODE scifact qwen docs 2048/5183 tokens=643302 seconds=49.5
+2026-10-18T22:49:37.697729+00:00 ENCODE scifact qwen docs 2560/5183 tokens=808597 seconds=62.2
+2026-10-18T22:49:50.295341+00:00 ENCODE scifact qwen docs 3072/5183 tokens=969121 seconds=74.8
+2026-10-18T22:50:03.391463+00:00 ENCODE scifact qwen docs 3584/5183 tokens=1137147 seconds=87.9
+
+DONE False ERROR False
+    PID     ELAPSED COMMAND
+      1       12:53 /sbin/docker-init -- /datalab/run.sh
+      7       12:53 /tools/node/bin/node /datalab/web/app.js
+      9       12:53 /bin/bash -e /usr/local/colab/bin/oom_monitor.sh
+     11       12:53 /bin/bash -e /datalab/run.sh
+     12       12:53 /usr/colab/bin/kernel_manager_proxy --listen_port=6000 --target_port=9000 --logtostderr --listen_host=172.28.0.12 --target_host=172.28.0.12 --tunnel_background_save_url=https://colab.research.google.com/tun/m/cc48301118ce562b961b3c22d803539adc1e0c19/gpu-l4-s-kkb-ass1b0-1u2jk9hsjofxk --tunnel_background_save_delay=10s --tunnel_periodic_background_save_frequency=30m0s --enable_output_coalescing=true --output_coalescing_required=true --use_oneplatform_for_bg_save=true
+     49       12:52 tail -n +0 -F /root/.config/Google/DriveFS/Logs/dpb.txt
+     55       12:52 tail -n +0 -F /root/.config/Google/DriveFS/Logs/drive_fs.txt
+     93       12:50 [python3] <defunct>
+     94       12:50 python3 /usr/local/bin/colab-fileshim.py
+    133       12:50 sshd: /usr/sbin/sshd [listener] 0 of 1-1 startups
+    148       12:49 /usr/bin/python3 /usr/local/bin/jupyter-server --debug --transport="ipc" --ip=172.28.0.12 --ServerApp.token= --port=9000 --FileContentsManager.root_dir=/ --FileContentsManager.allow_hidden=True --ServerApp.log_format="|%(levelname)s|%(message)s" --ServerApp.iopub_data_rate_limit=1e10 --MappingKernelManager.root_dir=/content
+   2559       03:02 /usr/bin/python3 -m colab_kernel_launcher -f /root/.local/share/jupyter/runtime/kernel-41844168-5994-41dc-b87d-056e661a687f.json
+   2590       03:00 python3 -u run.py
+   3419       00:00 sleep 1
+   3421       00:00 ps -eo pid,etime,args
+
+
+2026-10-18T22:49:50.295341+00:00 ENCODE scifact qwen docs 3072/5183 tokens=969121 seconds=74.8
+2026-10-18T22:50:03.391463+00:00 ENCODE scifact qwen docs 3584/5183 tokens=1137147 seconds=87.9
+2026-10-18T22:50:16.869909+00:00 ENCODE scifact qwen docs 4096/5183 tokens=1306933 seconds=101.4
+2026-10-18T22:50:29.051885+00:00 ENCODE scifact qwen docs 4608/5183 tokens=1466671 seconds=113.6
+2026-10-18T22:50:41.738736+00:00 ENCODE scifact qwen docs 5120/5183 tokens=1626795 seconds=126.3
+2026-10-18T22:50:43.346897+00:00 ENCODE scifact qwen docs 5183/5183 tokens=1644188 seconds=127.9
+2026-10-18T22:50:44.048095+00:00 ENCODE scifact qwen queries 300/300 tokens=11909 seconds=0.7
+2026-10-18T22:50:44.180987+00:00 DONE scifact qwen: {'seconds': 143.39127349853516, 'encode_seconds': {'docs': 127.89906144142151, 'queries': 0.695415735244751}, 'search_seconds': 0.13208603858947754, 'input_tokens_truncated_nonpadding': 1656097, 'tokens_by_kind': {'docs': 1644188, 'queries': 11909}, 'output_tokens': 0, 'model': 'Qwen/Qwen3-Embedding-0.6B', 'revision': '97b0c614be4d77ee51c0cef4e5f07c00f9eb65b3', 'max_seq_length': 512, 'resumed_chunks_included_in_token_total': True}
+2026-10-18T22:50:59.251183+00:00 PILOT FROZEN {'bge': {'dense': 'bge', 'k': 10, 'w': 0.8, 'ndcg10': 0.7241691967578786}, 'qwen': {'dense': 'qwen', 'k': 10, 'w': 0.5, 'ndcg10': 0.7273792080489139}}
+
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]
+Loading weights: 100%|██████████| 199/199 [00:00<00:00, 4175.25it/s]
+2026-10-18T22:51:02.637811+00:00 ENCODE fiqa bge docs 512/57638 tokens=87980 seconds=2.2
+2026-10-18T22:51:04.400693+00:00 ENCODE fiqa bge docs 1024/57638 tokens=169712 seconds=4.0
+
+DONE False ERROR False
+    PID     ELAPSED COMMAND
+      1       13:48 /sbin/docker-init -- /datalab/run.sh
+      7       13:48 /tools/node/bin/node /datalab/web/app.js
+      9       13:48 /bin/bash -e /usr/local/colab/bin/oom_monitor.sh
+     11       13:48 /bin/bash -e /datalab/run.sh
+     12       13:48 /usr/colab/bin/kernel_manager_proxy --listen_port=6000 --target_port=9000 --logtostderr --listen_host=172.28.0.12 --target_host=172.28.0.12 --tunnel_background_save_url=https://colab.research.google.com/tun/m/cc48301118ce562b961b3c22d803539adc1e0c19/gpu-l4-s-kkb-ass1b0-1u2jk9hsjofxk --tunnel_background_save_delay=10s --tunnel_periodic_background_save_frequency=30m0s --enable_output_coalescing=true --output_coalescing_required=true --use_oneplatform_for_bg_save=true
+     49       13:48 tail -n +0 -F /root/.config/Google/DriveFS/Logs/dpb.txt
+     55       13:48 tail -n +0 -F /root/.config/Google/DriveFS/Logs/drive_fs.txt
+     93       13:46 [python3] <defunct>
+     94       13:46 python3 /usr/local/bin/colab-fileshim.py
+    133       13:45 sshd: /usr/sbin/sshd [listener] 0 of 1-1 startups
+    148       13:44 /usr/bin/python3 /usr/local/bin/jupyter-server --debug --transport="ipc" --ip=172.28.0.12 --ServerApp.token= --port=9000 --FileContentsManager.root_dir=/ --FileContentsManager.allow_hidden=True --ServerApp.log_format="|%(levelname)s|%(message)s" --ServerApp.iopub_data_rate_limit=1e10 --MappingKernelManager.root_dir=/content
+   2559       03:57 /usr/bin/python3 -m colab_kernel_launcher -f /root/.local/share/jupyter/runtime/kernel-41844168-5994-41dc-b87d-056e661a687f.json
+   2590       03:55 python3 -u run.py
+   3651       00:00 sleep 1
+   3653       00:00 ps -eo pid,etime,args
+
+
+2026-10-18T22:51:48.159189+00:00 ENCODE fiqa bge docs 12288/57638 tokens=2056895 seconds=47.7
+2026-10-18T22:51:50.169765+00:00 ENCODE fiqa bge docs 12800/57638 tokens=2145475 seconds=49.7
+2026-10-18T22:51:52.456125+00:00 ENCODE fiqa bge docs 13312/57638 tokens=2233001 seconds=52.0
+2026-10-18T22:51:54.573042+00:00 ENCODE fiqa bge docs 13824/57638 tokens=2317368 seconds=54.1
+2026-10-18T22:51:56.484388+00:00 ENCODE fiqa bge docs 14336/57638 tokens=2397013 seconds=56.1
+2026-10-18T22:51:58.337179+00:00 ENCODE fiqa bge docs 14848/57638 tokens=2483365 seconds=57.9
+2026-10-18T22:52:00.275382+00:00 ENCODE fiqa bge docs 15360/57638 tokens=2568494 seconds=59.8
+2026-10-18T22:52:02.107402+00:00 ENCODE fiqa bge docs 15872/57638 tokens=2655625 seconds=61.7
+2026-10-18T22:52:04.100006+00:00 ENCODE fiqa bge docs 16384/57638 tokens=2741510 seconds=63.7
+2026-10-18T22:52:06.127954+00:00 ENCODE fiqa bge docs 16896/57638 tokens=2827707 seconds=65.7
+2026-10-18T22:52:08.034753+00:00 ENCODE fiqa bge docs 17408/57638 tokens=2910013 seconds=67.6
+2026-10-18T22:52:09.964430+00:00 ENCODE fiqa bge docs 17920/57638 tokens=2996864 seconds=69.5
+
+DONE False ERROR False
+    PID     ELAPSED COMMAND
+      1       14:54 /sbin/docker-init -- /datalab/run.sh
+      7       14:54 /tools/node/bin/node /datalab/web/app.js
+      9       14:54 /bin/bash -e /usr/local/colab/bin/oom_monitor.sh
+     11       14:54 /bin/bash -e /datalab/run.sh
+     12       14:54 /usr/colab/bin/kernel_manager_proxy --listen_port=6000 --target_port=9000 --logtostderr --listen_host=172.28.0.12 --target_host=172.28.0.12 --tunnel_background_save_url=https://colab.research.google.com/tun/m/cc48301118ce562b961b3c22d803539adc1e0c19/gpu-l4-s-kkb-ass1b0-1u2jk9hsjofxk --tunnel_background_save_delay=10s --tunnel_periodic_background_save_frequency=30m0s --enable_output_coalescing=true --output_coalescing_required=true --use_oneplatform_for_bg_save=true
+     49       14:54 tail -n +0 -F /root/.config/Google/DriveFS/Logs/dpb.txt
+     55       14:54 tail -n +0 -F /root/.config/Google/DriveFS/Logs/drive_fs.txt
+     93       14:52 [python3] <defunct>
+     94       14:52 python3 /usr/local/bin/colab-fileshim.py
+    133       14:52 sshd: /usr/sbin/sshd [listener] 0 of 1-1 startups
+    148       14:50 /usr/bin/python3 /usr/local/bin/jupyter-server --debug --transport="ipc" --ip=172.28.0.12 --ServerApp.token= --port=9000 --FileContentsManager.root_dir=/ --FileContentsManager.allow_hidden=True --ServerApp.log_format="|%(levelname)s|%(message)s" --ServerApp.iopub_data_rate_limit=1e10 --MappingKernelManager.root_dir=/content
+   2559       05:03 /usr/bin/python3 -m colab_kernel_launcher -f /root/.local/share/jupyter/runtime/kernel-41844168-5994-41dc-b87d-056e661a687f.json
+   2590       05:01 python3 -u run.py
+   3925       00:00 sleep 1
+   3927       00:00 ps -eo pid,etime,args
+
+
+Current balance: 118.96 compute units
+Usage rate: 3.08/hr
+Active assignments: 2
+
+2026-10-18T22:52:45.572863+00:00 ENCODE fiqa bge docs 27136/57638 tokens=4536813 seconds=105.1
+2026-10-18T22:52:47.502732+00:00 ENCODE fiqa bge docs 27648/57638 tokens=4622739 seconds=107.1
+2026-10-18T22:52:49.609657+00:00 ENCODE fiqa bge docs 28160/57638 tokens=4710795 seconds=109.2
+2026-10-18T22:52:51.501461+00:00 ENCODE fiqa bge docs 28672/57638 tokens=4797322 seconds=111.1
+2026-10-18T22:52:53.584440+00:00 ENCODE fiqa bge docs 29184/57638 tokens=4879946 seconds=113.2
+2026-10-18T22:52:55.588715+00:00 ENCODE fiqa bge docs 29696/57638 tokens=4962779 seconds=115.2
+2026-10-18T22:52:57.562224+00:00 ENCODE fiqa bge docs 30208/57638 tokens=5049948 seconds=117.1
+2026-10-18T22:52:59.465279+00:00 ENCODE fiqa bge docs 30720/57638 tokens=5134902 seconds=119.0
+2026-10-18T22:53:01.335334+00:00 ENCODE fiqa bge docs 31232/57638 tokens=5222018 seconds=120.9
+2026-10-18T22:53:03.312208+00:00 ENCODE fiqa bge docs 31744/57638 tokens=5311299 seconds=122.9
+2026-10-18T22:53:05.322372+00:00 ENCODE fiqa bge docs 32256/57638 tokens=5394842 seconds=124.9
+2026-10-18T22:53:07.207882+00:00 ENCODE fiqa bge docs 32768/57638 tokens=5479015 seconds=126.8
+
+DONE False ERROR False
+    PID     ELAPSED COMMAND
+      1       15:52 /sbin/docker-init -- /datalab/run.sh
+      7       15:52 /tools/node/bin/node /datalab/web/app.js
+      9       15:52 /bin/bash -e /usr/local/colab/bin/oom_monitor.sh
+     11       15:52 /bin/bash -e /datalab/run.sh
+     12       15:52 /usr/colab/bin/kernel_manager_proxy --listen_port=6000 --target_port=9000 --logtostderr --listen_host=172.28.0.12 --target_host=172.28.0.12 --tunnel_background_save_url=https://colab.research.google.com/tun/m/cc48301118ce562b961b3c22d803539adc1e0c19/gpu-l4-s-kkb-ass1b0-1u2jk9hsjofxk --tunnel_background_save_delay=10s --tunnel_periodic_background_save_frequency=30m0s --enable_output_coalescing=true --output_coalescing_required=true --use_oneplatform_for_bg_save=true
+     49       15:51 tail -n +0 -F /root/.config/Google/DriveFS/Logs/dpb.txt
+     55       15:51 tail -n +0 -F /root/.config/Google/DriveFS/Logs/drive_fs.txt
+     93       15:50 [python3] <defunct>
+     94       15:50 python3 /usr/local/bin/colab-fileshim.py
+    133       15:49 sshd: /usr/sbin/sshd [listener] 0 of 1-1 startups
+    148       15:48 /usr/bin/python3 /usr/local/bin/jupyter-server --debug --transport="ipc" --ip=172.28.0.12 --ServerApp.token= --port=9000 --FileContentsManager.root_dir=/ --FileContentsManager.allow_hidden=True --ServerApp.log_format="|%(levelname)s|%(message)s" --ServerApp.iopub_data_rate_limit=1e10 --MappingKernelManager.root_dir=/content
+   2559       06:01 /usr/bin/python3 -m colab_kernel_launcher -f /root/.local/share/jupyter/runtime/kernel-41844168-5994-41dc-b87d-056e661a687f.json
+   2590       05:59 python3 -u run.py
+   4165       00:00 sleep 1
+   4167       00:00 ps -eo pid,etime,args
+
+
+2026-10-18T22:53:55.058010+00:00 ENCODE fiqa bge docs 45056/57638 tokens=7538975 seconds=174.6
+2026-10-18T22:53:57.152776+00:00 ENCODE fiqa bge docs 45568/57638 tokens=7628519 seconds=176.7
+2026-10-18T22:53:59.244991+00:00 ENCODE fiqa bge docs 46080/57638 tokens=7713829 seconds=178.8
+2026-10-18T22:54:01.138332+00:00 ENCODE fiqa bge docs 46592/57638 tokens=7797400 seconds=180.7
+2026-10-18T22:54:03.173352+00:00 ENCODE fiqa bge docs 47104/57638 tokens=7881622 seconds=182.7
+2026-10-18T22:54:05.050018+00:00 ENCODE fiqa bge docs 47616/57638 tokens=7966982 seconds=184.6
+2026-10-18T22:54:07.198780+00:00 ENCODE fiqa bge docs 48128/57638 tokens=8057515 seconds=186.8
+2026-10-18T22:54:09.120065+00:00 ENCODE fiqa bge docs 48640/57638 tokens=8141879 seconds=188.7
+2026-10-18T22:54:10.913498+00:00 ENCODE fiqa bge docs 49152/57638 tokens=8223161 seconds=190.5
+2026-10-18T22:54:12.787222+00:00 ENCODE fiqa bge docs 49664/57638 tokens=8302237 seconds=192.4
+2026-10-18T22:54:15.083629+00:00 ENCODE fiqa bge docs 50176/57638 tokens=8390322 seconds=194.7
+2026-10-18T22:54:16.974921+00:00 ENCODE fiqa bge docs 50688/57638 tokens=8474136 seconds=196.5
+
+DONE False ERROR False
+    PID     ELAPSED COMMAND
+      1       17:01 /sbin/docker-init -- /datalab/run.sh
+      7       17:00 /tools/node/bin/node /datalab/web/app.js
+      9       17:00 /bin/bash -e /usr/local/colab/bin/oom_monitor.sh
+     11       17:00 /bin/bash -e /datalab/run.sh
+     12       17:00 /usr/colab/bin/kernel_manager_proxy --listen_port=6000 --target_port=9000 --logtostderr --listen_host=172.28.0.12 --target_host=172.28.0.12 --tunnel_background_save_url=https://colab.research.google.com/tun/m/cc48301118ce562b961b3c22d803539adc1e0c19/gpu-l4-s-kkb-ass1b0-1u2jk9hsjofxk --tunnel_background_save_delay=10s --tunnel_periodic_background_save_frequency=30m0s --enable_output_coalescing=true --output_coalescing_required=true --use_oneplatform_for_bg_save=true
+     49       17:00 tail -n +0 -F /root/.config/Google/DriveFS/Logs/dpb.txt
+     55       17:00 tail -n +0 -F /root/.config/Google/DriveFS/Logs/drive_fs.txt
+     93       16:58 [python3] <defunct>
+     94       16:58 python3 /usr/local/bin/colab-fileshim.py
+    133       16:58 sshd: /usr/sbin/sshd [listener] 0 of 1-1 startups
+    148       16:57 /usr/bin/python3 /usr/local/bin/jupyter-server --debug --transport="ipc" --ip=172.28.0.12 --ServerApp.token= --port=9000 --FileContentsManager.root_dir=/ --FileContentsManager.allow_hidden=True --ServerApp.log_format="|%(levelname)s|%(message)s" --ServerApp.iopub_data_rate_limit=1e10 --MappingKernelManager.root_dir=/content
+   2559       07:09 /usr/bin/python3 -m colab_kernel_launcher -f /root/.local/share/jupyter/runtime/kernel-41844168-5994-41dc-b87d-056e661a687f.json
+   2590       07:07 python3 -u run.py
+   4442       00:00 sleep 1
+   4444       00:00 ps -eo pid,etime,args
+
+
+2026-10-18T22:54:40.447824+00:00 ENCODE fiqa bge docs 56832/57638 tokens=9481774 seconds=220.0
+2026-10-18T22:54:42.358261+00:00 ENCODE fiqa bge docs 57344/57638 tokens=9569432 seconds=221.9
+2026-10-18T22:54:43.413637+00:00 ENCODE fiqa bge docs 57638/57638 tokens=9615933 seconds=223.0
+2026-10-18T22:54:43.679120+00:00 ENCODE fiqa bge queries 512/648 tokens=12143 seconds=0.2
+2026-10-18T22:54:43.766404+00:00 ENCODE fiqa bge queries 648/648 tokens=15287 seconds=0.3
+2026-10-18T22:54:47.790718+00:00 DONE fiqa bge: {'seconds': 228.33957934379578, 'encode_seconds': {'docs': 223.01287317276, 'queries': 0.3270843029022217}, 'search_seconds': 4.023451566696167, 'input_tokens_truncated_nonpadding': 9631220, 'tokens_by_kind': {'docs': 9615933, 'queries': 15287}, 'output_tokens': 0, 'model': 'BAAI/bge-small-en-v1.5', 'revision': '5c38ec7c405ec4b44b94cc5a9bb96e735b38267a', 'max_seq_length': 512, 'resumed_chunks_included_in_token_total': True}
+
+Loading weights:   0%|          | 0/310 [00:00<?, ?it/s]
+Loading weights:   0%|          | 1/310 [00:00<00:38,  7.93it/s]
+Loading weights: 100%|██████████| 310/310 [00:00<00:00, 1483.29it/s]
+2026-10-18T22:54:58.599725+00:00 ENCODE fiqa qwen docs 512/57638 tokens=85928 seconds=6.8
+2026-10-18T22:55:04.717199+00:00 ENCODE fiqa qwen docs 1024/57638 tokens=165660 seconds=13.0
+2026-10-18T22:55:10.907857+00:00 ENCODE fiqa qwen docs 1536/57638 tokens=250240 seconds=19.1
+2026-10-18T22:55:17.430244+00:00 ENCODE fiqa qwen docs 2048/57638 tokens=331704 seconds=25.7
+2026-10-18T22:55:23.532799+00:00 ENCODE fiqa qwen docs 2560/57638 tokens=412865 seconds=31.8
+
+DONE False ERROR False
+    PID     ELAPSED COMMAND
+      1       18:07 /sbin/docker-init -- /datalab/run.sh
+      7       18:07 /tools/node/bin/node /datalab/web/app.js
+      9       18:07 /bin/bash -e /usr/local/colab/bin/oom_monitor.sh
+     11       18:07 /bin/bash -e /datalab/run.sh
+     12       18:07 /usr/colab/bin/kernel_manager_proxy --listen_port=6000 --target_port=9000 --logtostderr --listen_host=172.28.0.12 --target_host=172.28.0.12 --tunnel_background_save_url=https://colab.research.google.com/tun/m/cc48301118ce562b961b3c22d803539adc1e0c19/gpu-l4-s-kkb-ass1b0-1u2jk9hsjofxk --tunnel_background_save_delay=10s --tunnel_periodic_background_save_frequency=30m0s --enable_output_coalescing=true --output_coalescing_required=true --use_oneplatform_for_bg_save=true
+     49       18:06 tail -n +0 -F /root/.config/Google/DriveFS/Logs/dpb.txt
+     55       18:06 tail -n +0 -F /root/.config/Google/DriveFS/Logs/drive_fs.txt
+     93       18:05 [python3] <defunct>
+     94       18:05 python3 /usr/local/bin/colab-fileshim.py
+    133       18:04 sshd: /usr/sbin/sshd [listener] 0 of 1-1 startups
+    148       18:03 /usr/bin/python3 /usr/local/bin/jupyter-server --debug --transport="ipc" --ip=172.28.0.12 --ServerApp.token= --port=9000 --FileContentsManager.root_dir=/ --FileContentsManager.allow_hidden=True --ServerApp.log_format="|%(levelname)s|%(message)s" --ServerApp.iopub_data_rate_limit=1e10 --MappingKernelManager.root_dir=/content
+   2559       08:16 /usr/bin/python3 -m colab_kernel_launcher -f /root/.local/share/jupyter/runtime/kernel-41844168-5994-41dc-b87d-056e661a687f.json
+   2590       08:14 python3 -u run.py
+   4722       00:00 sleep 1
+   4724       00:00 ps -eo pid,etime,args
+
+
+2026-10-18T22:55:10.907857+00:00 ENCODE fiqa qwen docs 1536/57638 tokens=250240 seconds=19.1
+2026-10-18T22:55:17.430244+00:00 ENCODE fiqa qwen docs 2048/57638 tokens=331704 seconds=25.7
+2026-10-18T22:55:23.532799+00:00 ENCODE fiqa qwen docs 2560/57638 tokens=412865 seconds=31.8
+2026-10-18T22:55:29.826159+00:00 ENCODE fiqa qwen docs 3072/57638 tokens=496128 seconds=38.1
+2026-10-18T22:55:36.303052+00:00 ENCODE fiqa qwen docs 3584/57638 tokens=581346 seconds=44.5
+2026-10-18T22:55:42.878434+00:00 ENCODE fiqa qwen docs 4096/57638 tokens=666880 seconds=51.1
+2026-10-18T22:55:48.998752+00:00 ENCODE fiqa qwen docs 4608/57638 tokens=748342 seconds=57.2
+2026-10-18T22:55:55.134544+00:00 ENCODE fiqa qwen docs 5120/57638 tokens=829224 seconds=63.4
+2026-10-18T22:56:01.147596+00:00 ENCODE fiqa qwen docs 5632/57638 tokens=909439 seconds=69.4
+2026-10-18T22:56:07.776154+00:00 ENCODE fiqa qwen docs 6144/57638 tokens=995279 seconds=76.0
+2026-10-18T22:56:13.861950+00:00 ENCODE fiqa qwen docs 6656/57638 tokens=1079083 seconds=82.1
+2026-10-18T22:56:20.240677+00:00 ENCODE fiqa qwen docs 7168/57638 tokens=1163004 seconds=88.5
+
+DONE False ERROR False
+    PID     ELAPSED COMMAND
+      1       19:04 /sbin/docker-init -- /datalab/run.sh
+      7       19:04 /tools/node/bin/node /datalab/web/app.js
+      9       19:04 /bin/bash -e /usr/local/colab/bin/oom_monitor.sh
+     11       19:04 /bin/bash -e /datalab/run.sh
+     12       19:04 /usr/colab/bin/kernel_manager_proxy --listen_port=6000 --target_port=9000 --logtostderr --listen_host=172.28.0.12 --target_host=172.28.0.12 --tunnel_background_save_url=https://colab.research.google.com/tun/m/cc48301118ce562b961b3c22d803539adc1e0c19/gpu-l4-s-kkb-ass1b0-1u2jk9hsjofxk --tunnel_background_save_delay=10s --tunnel_periodic_background_save_frequency=30m0s --enable_output_coalescing=true --output_coalescing_required=true --use_oneplatform_for_bg_save=true
+     49       19:04 tail -n +0 -F /root/.config/Google/DriveFS/Logs/dpb.txt
+     55       19:04 tail -n +0 -F /root/.config/Google/DriveFS/Logs/drive_fs.txt
+     93       19:02 [python3] <defunct>
+     94       19:02 python3 /usr/local/bin/colab-fileshim.py
+    133       19:01 sshd: /usr/sbin/sshd [listener] 0 of 1-1 startups
+    148       19:00 /usr/bin/python3 /usr/local/bin/jupyter-server --debug --transport="ipc" --ip=172.28.0.12 --ServerApp.token= --port=9000 --FileContentsManager.root_dir=/ --FileContentsManager.allow_hidden=True --ServerApp.log_format="|%(levelname)s|%(message)s" --ServerApp.iopub_data_rate_limit=1e10 --MappingKernelManager.root_dir=/content
+   2559       09:13 /usr/bin/python3 -m colab_kernel_launcher -f /root/.local/share/jupyter/runtime/kernel-41844168-5994-41dc-b87d-056e661a687f.json
+   2590       09:11 python3 -u run.py
+   4958       00:00 sleep 1
+   4960 441077234-00:18:40 ps -eo pid,etime,args
+
+
+Current balance: 118.70 compute units
+Usage rate: 3.08/hr
+Active assignments: 2
+
+2026-10-18T22:56:07.776154+00:00 ENCODE fiqa qwen docs 6144/57638 tokens=995279 seconds=76.0
+2026-10-18T22:56:13.861950+00:00 ENCODE fiqa qwen docs 6656/57638 tokens=1079083 seconds=82.1
+2026-10-18T22:56:20.240677+00:00 ENCODE fiqa qwen docs 7168/57638 tokens=1163004 seconds=88.5
+2026-10-18T22:56:26.828645+00:00 ENCODE fiqa qwen docs 7680/57638 tokens=1247151 seconds=95.1
+2026-10-18T22:56:33.628425+00:00 ENCODE fiqa qwen docs 8192/57638 tokens=1333201 seconds=101.9
+2026-10-18T22:56:40.624223+00:00 ENCODE fiqa qwen docs 8704/57638 tokens=1422437 seconds=108.9
+2026-10-18T22:56:47.335540+00:00 ENCODE fiqa qwen docs 9216/57638 tokens=1509389 seconds=115.6
+2026-10-18T22:56:53.407226+00:00 ENCODE fiqa qwen docs 9728/57638 tokens=1590691 seconds=121.6
+2026-10-18T22:56:59.507950+00:00 ENCODE fiqa qwen docs 10240/57638 tokens=1672202 seconds=127.7
+2026-10-18T22:57:06.127281+00:00 ENCODE fiqa qwen docs 10752/57638 tokens=1758016 seconds=134.4
+2026-10-18T22:57:12.586620+00:00 ENCODE fiqa qwen docs 11264/57638 tokens=1840419 seconds=140.8
+2026-10-18T22:57:19.084589+00:00 ENCODE fiqa qwen docs 11776/57638 tokens=1926243 seconds=147.3
+
+DONE False ERROR False
+    PID     ELAPSED COMMAND
+      1       20:04 /sbin/docker-init -- /datalab/run.sh
+      7       20:03 /tools/node/bin/node /datalab/web/app.js
+      9       20:03 /bin/bash -e /usr/local/colab/bin/oom_monitor.sh
+     11       20:03 /bin/bash -e /datalab/run.sh
+     12       20:03 /usr/colab/bin/kernel_manager_proxy --listen_port=6000 --target_port=9000 --logtostderr --listen_host=172.28.0.12 --target_host=172.28.0.12 --tunnel_background_save_url=https://colab.research.google.com/tun/m/cc48301118ce562b961b3c22d803539adc1e0c19/gpu-l4-s-kkb-ass1b0-1u2jk9hsjofxk --tunnel_background_save_delay=10s --tunnel_periodic_background_save_frequency=30m0s --enable_output_coalescing=true --output_coalescing_required=true --use_oneplatform_for_bg_save=true
+     49       20:03 tail -n +0 -F /root/.config/Google/DriveFS/Logs/dpb.txt
+     55       20:03 tail -n +0 -F /root/.config/Google/DriveFS/Logs/drive_fs.txt
+     93       20:01 [python3] <defunct>
+     94       20:01 python3 /usr/local/bin/colab-fileshim.py
+    133       20:01 sshd: /usr/sbin/sshd [listener] 0 of 1-1 startups
+    148       19:59 /usr/bin/python3 /usr/local/bin/jupyter-server --debug --transport="ipc" --ip=172.28.0.12 --ServerApp.token= --port=9000 --FileContentsManager.root_dir=/ --FileContentsManager.allow_hidden=True --ServerApp.log_format="|%(levelname)s|%(message)s" --ServerApp.iopub_data_rate_limit=1e10 --MappingKernelManager.root_dir=/content
+   2559       10:12 /usr/bin/python3 -m colab_kernel_launcher -f /root/.local/share/jupyter/runtime/kernel-41844168-5994-41dc-b87d-056e661a687f.json
+   2590       10:10 python3 -u run.py
+   5202       00:00 sleep 1
+   5204       00:00 ps -eo pid,etime,args
+
+
+2026-10-18T22:57:12.586620+00:00 ENCODE fiqa qwen docs 11264/57638 tokens=1840419 seconds=140.8
+2026-10-18T22:57:19.084589+00:00 ENCODE fiqa qwen docs 11776/57638 tokens=1926243 seconds=147.3
+2026-10-18T22:57:25.740910+00:00 ENCODE fiqa qwen docs 12288/57638 tokens=2013007 seconds=154.0
+2026-10-18T22:57:32.215328+00:00 ENCODE fiqa qwen docs 12800/57638 tokens=2099697 seconds=160.5
+2026-10-18T22:57:38.747055+00:00 ENCODE fiqa qwen docs 13312/57638 tokens=2185068 seconds=167.0
+2026-10-18T22:57:45.075199+00:00 ENCODE fiqa qwen docs 13824/57638 tokens=2267580 seconds=173.3
+2026-10-18T22:57:50.988450+00:00 ENCODE fiqa qwen docs 14336/57638 tokens=2345224 seconds=179.2
+2026-10-18T22:57:57.176490+00:00 ENCODE fiqa qwen docs 14848/57638 tokens=2429612 seconds=185.4
+2026-10-18T22:58:03.445169+00:00 ENCODE fiqa qwen docs 15360/57638 tokens=2512787 seconds=191.7
+2026-10-18T22:58:09.818544+00:00 ENCODE fiqa qwen docs 15872/57638 tokens=2597934 seconds=198.1
+2026-10-18T22:58:16.110994+00:00 ENCODE fiqa qwen docs 16384/57638 tokens=2682171 seconds=204.3
+2026-10-18T22:58:22.608802+00:00 ENCODE fiqa qwen docs 16896/57638 tokens=2766382 seconds=210.8
+
+DONE False ERROR False
+    PID     ELAPSED COMMAND
+      1       21:11 /sbin/docker-init -- /datalab/run.sh
+      7       21:10 /tools/node/bin/node /datalab/web/app.js
+      9       21:10 /bin/bash -e /usr/local/colab/bin/oom_monitor.sh
+     11       21:10 /bin/bash -e /datalab/run.sh
+     12       21:10 /usr/colab/bin/kernel_manager_proxy --listen_port=6000 --target_port=9000 --logtostderr --listen_host=172.28.0.12 --target_host=172.28.0.12 --tunnel_background_save_url=https://colab.research.google.com/tun/m/cc48301118ce562b961b3c22d803539adc1e0c19/gpu-l4-s-kkb-ass1b0-1u2jk9hsjofxk --tunnel_background_save_delay=10s --tunnel_periodic_background_save_frequency=30m0s --enable_output_coalescing=true --output_coalescing_required=true --use_oneplatform_for_bg_save=true
+     49       21:10 tail -n +0 -F /root/.config/Google/DriveFS/Logs/dpb.txt
+     55       21:10 tail -n +0 -F /root/.config/Google/DriveFS/Logs/drive_fs.txt
+     93       21:08 [python3] <defunct>
+     94       21:08 python3 /usr/local/bin/colab-fileshim.py
+    133       21:08 sshd: /usr/sbin/sshd [listener] 0 of 1-1 startups
+    148       21:07 /usr/bin/python3 /usr/local/bin/jupyter-server --debug --transport="ipc" --ip=172.28.0.12 --ServerApp.token= --port=9000 --FileContentsManager.root_dir=/ --FileContentsManager.allow_hidden=True --ServerApp.log_format="|%(levelname)s|%(message)s" --ServerApp.iopub_data_rate_limit=1e10 --MappingKernelManager.root_dir=/content
+   2559       11:19 /usr/bin/python3 -m colab_kernel_launcher -f /root/.local/share/jupyter/runtime/kernel-41844168-5994-41dc-b87d-056e661a687f.json
+   2590       11:17 python3 -u run.py
+   5478       00:00 sleep 1
+   5480       00:00 ps -eo pid,etime,args
+
+
+2026-10-18T22:58:09.818544+00:00 ENCODE fiqa qwen docs 15872/57638 tokens=2597934 seconds=198.1
+2026-10-18T22:58:16.110994+00:00 ENCODE fiqa qwen docs 16384/57638 tokens=2682171 seconds=204.3
+2026-10-18T22:58:22.608802+00:00 ENCODE fiqa qwen docs 16896/57638 tokens=2766382 seconds=210.8
+2026-10-18T22:58:28.807155+00:00 ENCODE fiqa qwen docs 17408/57638 tokens=2847386 seconds=217.0
+2026-10-18T22:58:35.569051+00:00 ENCODE fiqa qwen docs 17920/57638 tokens=2932520 seconds=223.8
+2026-10-18T22:58:42.280776+00:00 ENCODE fiqa qwen docs 18432/57638 tokens=3019076 seconds=230.5
+2026-10-18T22:58:48.624482+00:00 ENCODE fiqa qwen docs 18944/57638 tokens=3103144 seconds=236.9
+2026-10-18T22:58:54.616307+00:00 ENCODE fiqa qwen docs 19456/57638 tokens=3183045 seconds=242.9
+2026-10-18T22:59:01.004533+00:00 ENCODE fiqa qwen docs 19968/57638 tokens=3267991 seconds=249.2
+2026-10-18T22:59:07.201439+00:00 ENCODE fiqa qwen docs 20480/57638 tokens=3348551 seconds=255.4
+2026-10-18T22:59:13.831460+00:00 ENCODE fiqa qwen docs 20992/57638 tokens=3436645 seconds=262.1
+2026-10-18T22:59:19.784726+00:00 ENCODE fiqa qwen docs 21504/57638 tokens=3514465 seconds=268.0
+
+DONE False ERROR False
+    PID     ELAPSED COMMAND
+      1       22:09 /sbin/docker-init -- /datalab/run.sh
+      7       22:08 /tools/node/bin/node /datalab/web/app.js
+      9       22:08 /bin/bash -e /usr/local/colab/bin/oom_monitor.sh
+     11       22:08 /bin/bash -e /datalab/run.sh
+     12       22:08 /usr/colab/bin/kernel_manager_proxy --listen_port=6000 --target_port=9000 --logtostderr --listen_host=172.28.0.12 --target_host=172.28.0.12 --tunnel_background_save_url=https://colab.research.google.com/tun/m/cc48301118ce562b961b3c22d803539adc1e0c19/gpu-l4-s-kkb-ass1b0-1u2jk9hsjofxk --tunnel_background_save_delay=10s --tunnel_periodic_background_save_frequency=30m0s --enable_output_coalescing=true --output_coalescing_required=true --use_oneplatform_for_bg_save=true
+     49       22:08 tail -n +0 -F /root/.config/Google/DriveFS/Logs/dpb.txt
+     55       22:08 tail -n +0 -F /root/.config/Google/DriveFS/Logs/drive_fs.txt
+     93       22:06 [python3] <defunct>
+     94       22:06 python3 /usr/local/bin/colab-fileshim.py
+    133       22:06 sshd: /usr/sbin/sshd [listener] 0 of 1-1 startups
+    148       22:05 /usr/bin/python3 /usr/local/bin/jupyter-server --debug --transport="ipc" --ip=172.28.0.12 --ServerApp.token= --port=9000 --FileContentsManager.root_dir=/ --FileContentsManager.allow_hidden=True --ServerApp.log_format="|%(levelname)s|%(message)s" --ServerApp.iopub_data_rate_limit=1e10 --MappingKernelManager.root_dir=/content
+   2559       12:17 /usr/bin/python3 -m colab_kernel_launcher -f /root/.local/share/jupyter/runtime/kernel-41844168-5994-41dc-b87d-056e661a687f.json
+   2590       12:15 python3 -u run.py
+   5718       00:00 sleep 1
+   5720       00:00 ps -eo pid,etime,args
+
+
+2026-10-18T22:59:19.784726+00:00 ENCODE fiqa qwen docs 21504/57638 tokens=3514465 seconds=268.0
+2026-10-18T22:59:25.935023+00:00 ENCODE fiqa qwen docs 22016/57638 tokens=3593924 seconds=274.2
+2026-10-18T22:59:32.104395+00:00 ENCODE fiqa qwen docs 22528/57638 tokens=3676613 seconds=280.3
+2026-10-18T22:59:38.348491+00:00 ENCODE fiqa qwen docs 23040/57638 tokens=3759587 seconds=286.6
+2026-10-18T22:59:45.179236+00:00 ENCODE fiqa qwen docs 23552/57638 tokens=3844977 seconds=293.4
+2026-10-18T22:59:51.498136+00:00 ENCODE fiqa qwen docs 24064/57638 tokens=3928595 seconds=299.7
+2026-10-18T22:59:57.548968+00:00 ENCODE fiqa qwen docs 24576/57638 tokens=4006653 seconds=305.8
+2026-10-18T23:00:03.976849+00:00 ENCODE fiqa qwen docs 25088/57638 tokens=4091425 seconds=312.2
+2026-10-18T23:00:10.559314+00:00 ENCODE fiqa qwen docs 25600/57638 tokens=4176008 seconds=318.8
+2026-10-18T23:00:16.964342+00:00 ENCODE fiqa qwen docs 26112/57638 tokens=4258466 seconds=325.2
+2026-10-18T23:00:23.997211+00:00 ENCODE fiqa qwen docs 26624/57638 tokens=4348497 seconds=332.2
+2026-10-18T23:00:30.746850+00:00 ENCODE fiqa qwen docs 27136/57638 tokens=4437482 seconds=339.0
+
+DONE False ERROR False
+    PID     ELAPSED COMMAND
+      1       23:16 /sbin/docker-init -- /datalab/run.sh
+      7       23:16 /tools/node/bin/node /datalab/web/app.js
+      9       23:15 /bin/bash -e /usr/local/colab/bin/oom_monitor.sh
+     11       23:15 /bin/bash -e /datalab/run.sh
+     12       23:15 /usr/colab/bin/kernel_manager_proxy --listen_port=6000 --target_port=9000 --logtostderr --listen_host=172.28.0.12 --target_host=172.28.0.12 --tunnel_background_save_url=https://colab.research.google.com/tun/m/cc48301118ce562b961b3c22d803539adc1e0c19/gpu-l4-s-kkb-ass1b0-1u2jk9hsjofxk --tunnel_background_save_delay=10s --tunnel_periodic_background_save_frequency=30m0s --enable_output_coalescing=true --output_coalescing_required=true --use_oneplatform_for_bg_save=true
+     49       23:15 tail -n +0 -F /root/.config/Google/DriveFS/Logs/dpb.txt
+     55       23:15 tail -n +0 -F /root/.config/Google/DriveFS/Logs/drive_fs.txt
+     93       23:13 [python3] <defunct>
+     94       23:13 python3 /usr/local/bin/colab-fileshim.py
+    133       23:13 sshd: /usr/sbin/sshd [listener] 0 of 1-1 startups
+    148       23:12 /usr/bin/python3 /usr/local/bin/jupyter-server --debug --transport="ipc" --ip=172.28.0.12 --ServerApp.token= --port=9000 --FileContentsManager.root_dir=/ --FileContentsManager.allow_hidden=True --ServerApp.log_format="|%(levelname)s|%(message)s" --ServerApp.iopub_data_rate_limit=1e10 --MappingKernelManager.root_dir=/content
+   2559       13:24 /usr/bin/python3 -m colab_kernel_launcher -f /root/.local/share/jupyter/runtime/kernel-41844168-5994-41dc-b87d-056e661a687f.json
+   2590       13:23 python3 -u run.py
+   5994       00:00 sleep 1
+   5996       00:00 ps -eo pid,etime,args
+
+
+Current balance: 118.45 compute units
+Usage rate: 3.08/hr
+Active assignments: 2
+
+2026-10-18T23:00:16.964342+00:00 ENCODE fiqa qwen docs 26112/57638 tokens=4258466 seconds=325.2
+2026-10-18T23:00:23.997211+00:00 ENCODE fiqa qwen docs 26624/57638 tokens=4348497 seconds=332.2
+2026-10-18T23:00:30.746850+00:00 ENCODE fiqa qwen docs 27136/57638 tokens=4437482 seconds=339.0
+2026-10-18T23:00:36.924471+00:00 ENCODE fiqa qwen docs 27648/57638 tokens=4521511 seconds=345.2
+2026-10-18T23:00:43.588141+00:00 ENCODE fiqa qwen docs 28160/57638 tokens=4607493 seconds=351.8
+2026-10-18T23:00:49.781929+00:00 ENCODE fiqa qwen docs 28672/57638 tokens=4692022 seconds=358.0
+2026-10-18T23:00:56.146738+00:00 ENCODE fiqa qwen docs 29184/57638 tokens=4772883 seconds=364.4
+2026-10-18T23:01:02.374420+00:00 ENCODE fiqa qwen docs 29696/57638 tokens=4853851 seconds=370.6
+2026-10-18T23:01:08.804305+00:00 ENCODE fiqa qwen docs 30208/57638 tokens=4939223 seconds=377.0
+2026-10-18T23:01:15.141964+00:00 ENCODE fiqa qwen docs 30720/57638 tokens=5022067 seconds=383.4
+2026-10-18T23:01:21.526073+00:00 ENCODE fiqa qwen docs 31232/57638 tokens=5107391 seconds=389.8
+2026-10-18T23:01:28.335335+00:00 ENCODE fiqa qwen docs 31744/57638 tokens=5194655 seconds=396.6
+
+DONE False ERROR False
+    PID     ELAPSED COMMAND
+      1       24:15 /sbin/docker-init -- /datalab/run.sh
+      7       24:15 /tools/node/bin/node /datalab/web/app.js
+      9       24:15 /bin/bash -e /usr/local/colab/bin/oom_monitor.sh
+     11       24:15 /bin/bash -e /datalab/run.sh
+     12       24:15 /usr/colab/bin/kernel_manager_proxy --listen_port=6000 --target_port=9000 --logtostderr --listen_host=172.28.0.12 --target_host=172.28.0.12 --tunnel_background_save_url=https://colab.research.google.com/tun/m/cc48301118ce562b961b3c22d803539adc1e0c19/gpu-l4-s-kkb-ass1b0-1u2jk9hsjofxk --tunnel_background_save_delay=10s --tunnel_periodic_background_save_frequency=30m0s --enable_output_coalescing=true --output_coalescing_required=true --use_oneplatform_for_bg_save=true
+     49       24:14 tail -n +0 -F /root/.config/Google/DriveFS/Logs/dpb.txt
+     55       24:14 tail -n +0 -F /root/.config/Google/DriveFS/Logs/drive_fs.txt
+     93       24:13 [python3] <defunct>
+     94       24:13 python3 /usr/local/bin/colab-fileshim.py
+    133       24:12 sshd: /usr/sbin/sshd [listener] 0 of 1-1 startups
+    148       24:11 /usr/bin/python3 /usr/local/bin/jupyter-server --debug --transport="ipc" --ip=172.28.0.12 --ServerApp.token= --port=9000 --FileContentsManager.root_dir=/ --FileContentsManager.allow_hidden=True --ServerApp.log_format="|%(levelname)s|%(message)s" --ServerApp.iopub_data_rate_limit=1e10 --MappingKernelManager.root_dir=/content
+   2559       14:24 /usr/bin/python3 -m colab_kernel_launcher -f /root/.local/share/jupyter/runtime/kernel-41844168-5994-41dc-b87d-056e661a687f.json
+   2590       14:22 python3 -u run.py
+   6238       00:00 sleep 1
+   6240       00:00 ps -eo pid,etime,args
+
+
+2026-10-18T23:01:15.141964+00:00 ENCODE fiqa qwen docs 30720/57638 tokens=5022067 seconds=383.4
+2026-10-18T23:01:21.526073+00:00 ENCODE fiqa qwen docs 31232/57638 tokens=5107391 seconds=389.8
+2026-10-18T23:01:28.335335+00:00 ENCODE fiqa qwen docs 31744/57638 tokens=5194655 seconds=396.6
+2026-10-18T23:01:34.937730+00:00 ENCODE fiqa qwen docs 32256/57638 tokens=5275886 seconds=403.2
+2026-10-18T23:01:40.898015+00:00 ENCODE fiqa qwen docs 32768/57638 tokens=5358357 seconds=409.1
+2026-10-18T23:01:47.351415+00:00 ENCODE fiqa qwen docs 33280/57638 tokens=5440940 seconds=415.6
+2026-10-18T23:01:53.541862+00:00 ENCODE fiqa qwen docs 33792/57638 tokens=5523986 seconds=421.8
+2026-10-18T23:01:59.594462+00:00 ENCODE fiqa qwen docs 34304/57638 tokens=5608218 seconds=427.8
+2026-10-18T23:02:06.129965+00:00 ENCODE fiqa qwen docs 34816/57638 tokens=5691769 seconds=434.4
+2026-10-18T23:02:12.696247+00:00 ENCODE fiqa qwen docs 35328/57638 tokens=5773713 seconds=440.9
+2026-10-18T23:02:19.407929+00:00 ENCODE fiqa qwen docs 35840/57638 tokens=5859213 seconds=447.6
+2026-10-18T23:02:25.746221+00:00 ENCODE fiqa qwen docs 36352/57638 tokens=5944708 seconds=454.0
+
+DONE False ERROR False
+    PID     ELAPSED COMMAND
+      1       25:13 /sbin/docker-init -- /datalab/run.sh
+      7       25:13 /tools/node/bin/node /datalab/web/app.js
+      9       25:13 /bin/bash -e /usr/local/colab/bin/oom_monitor.sh
+     11       25:13 /bin/bash -e /datalab/run.sh
+     12       25:13 /usr/colab/bin/kernel_manager_proxy --listen_port=6000 --target_port=9000 --logtostderr --listen_host=172.28.0.12 --target_host=172.28.0.12 --tunnel_background_save_url=https://colab.research.google.com/tun/m/cc48301118ce562b961b3c22d803539adc1e0c19/gpu-l4-s-kkb-ass1b0-1u2jk9hsjofxk --tunnel_background_save_delay=10s --tunnel_periodic_background_save_frequency=30m0s --enable_output_coalescing=true --output_coalescing_required=true --use_oneplatform_for_bg_save=true
+     49       25:13 tail -n +0 -F /root/.config/Google/DriveFS/Logs/dpb.txt
+     55       25:13 tail -n +0 -F /root/.config/Google/DriveFS/Logs/drive_fs.txt
+     93       25:11 [python3] <defunct>
+     94       25:11 python3 /usr/local/bin/colab-fileshim.py
+    133       25:10 sshd: /usr/sbin/sshd [listener] 0 of 1-1 startups
+    148       25:09 /usr/bin/python3 /usr/local/bin/jupyter-server --debug --transport="ipc" --ip=172.28.0.12 --ServerApp.token= --port=9000 --FileContentsManager.root_dir=/ --FileContentsManager.allow_hidden=True --ServerApp.log_format="|%(levelname)s|%(message)s" --ServerApp.iopub_data_rate_limit=1e10 --MappingKernelManager.root_dir=/content
+   2559       15:22 /usr/bin/python3 -m colab_kernel_launcher -f /root/.local/share/jupyter/runtime/kernel-41844168-5994-41dc-b87d-056e661a687f.json
+   2590       15:20 python3 -u run.py
+   6475       00:00 sleep 1
+   6477       00:00 ps -eo pid,etime,args
+
+
+2026-10-18T23:02:12.696247+00:00 ENCODE fiqa qwen docs 35328/57638 tokens=5773713 seconds=440.9
+2026-10-18T23:02:19.407929+00:00 ENCODE fiqa qwen docs 35840/57638 tokens=5859213 seconds=447.6
+2026-10-18T23:02:25.746221+00:00 ENCODE fiqa qwen docs 36352/57638 tokens=5944708 seconds=454.0
+2026-10-18T23:02:31.839847+00:00 ENCODE fiqa qwen docs 36864/57638 tokens=6024789 seconds=460.1
+2026-10-18T23:02:38.807816+00:00 ENCODE fiqa qwen docs 37376/57638 tokens=6110031 seconds=467.0
+2026-10-18T23:02:45.529272+00:00 ENCODE fiqa qwen docs 37888/57638 tokens=6195704 seconds=473.8
+2026-10-18T23:02:51.745774+00:00 ENCODE fiqa qwen docs 38400/57638 tokens=6277135 seconds=480.0
+2026-10-18T23:02:58.042315+00:00 ENCODE fiqa qwen docs 38912/57638 tokens=6362913 seconds=486.3
+2026-10-18T23:03:04.541380+00:00 ENCODE fiqa qwen docs 39424/57638 tokens=6448345 seconds=492.8
+2026-10-18T23:03:10.768224+00:00 ENCODE fiqa qwen docs 39936/57638 tokens=6529121 seconds=499.0
+2026-10-18T23:03:17.645756+00:00 ENCODE fiqa qwen docs 40448/57638 tokens=6615546 seconds=505.9
+2026-10-18T23:03:24.201901+00:00 ENCODE fiqa qwen docs 40960/57638 tokens=6702062 seconds=512.4
+
+DONE False ERROR False
+    PID     ELAPSED COMMAND
+      1       26:11 /sbin/docker-init -- /datalab/run.sh
+      7       26:10 /tools/node/bin/node /datalab/web/app.js
+      9       26:10 /bin/bash -e /usr/local/colab/bin/oom_monitor.sh
+     11       26:10 /bin/bash -e /datalab/run.sh
+     12       26:10 /usr/colab/bin/kernel_manager_proxy --listen_port=6000 --target_port=9000 --logtostderr --listen_host=172.28.0.12 --target_host=172.28.0.12 --tunnel_background_save_url=https://colab.research.google.com/tun/m/cc48301118ce562b961b3c22d803539adc1e0c19/gpu-l4-s-kkb-ass1b0-1u2jk9hsjofxk --tunnel_background_save_delay=10s --tunnel_periodic_background_save_frequency=30m0s --enable_output_coalescing=true --output_coalescing_required=true --use_oneplatform_for_bg_save=true
+     49       26:10 tail -n +0 -F /root/.config/Google/DriveFS/Logs/dpb.txt
+     55       26:10 tail -n +0 -F /root/.config/Google/DriveFS/Logs/drive_fs.txt
+     93       26:08 [python3] <defunct>
+     94       26:08 python3 /usr/local/bin/colab-fileshim.py
+    133       26:08 sshd: /usr/sbin/sshd [listener] 0 of 1-1 startups
+    148       26:06 /usr/bin/python3 /usr/local/bin/jupyter-server --debug --transport="ipc" --ip=172.28.0.12 --ServerApp.token= --port=9000 --FileContentsManager.root_dir=/ --FileContentsManager.allow_hidden=True --ServerApp.log_format="|%(levelname)s|%(message)s" --ServerApp.iopub_data_rate_limit=1e10 --MappingKernelManager.root_dir=/content
+   2559       16:19 /usr/bin/python3 -m colab_kernel_launcher -f /root/.local/share/jupyter/runtime/kernel-41844168-5994-41dc-b87d-056e661a687f.json
+   2590       16:17 python3 -u run.py
+   6713       00:00 sleep 1
+   6715       00:00 ps -eo pid,etime,args
+
+
+2026-10-18T23:03:10.768224+00:00 ENCODE fiqa qwen docs 39936/57638 tokens=6529121 seconds=499.0
+2026-10-18T23:03:17.645756+00:00 ENCODE fiqa qwen docs 40448/57638 tokens=6615546 seconds=505.9
+2026-10-18T23:03:24.201901+00:00 ENCODE fiqa qwen docs 40960/57638 tokens=6702062 seconds=512.4
+2026-10-18T23:03:30.186519+00:00 ENCODE fiqa qwen docs 41472/57638 tokens=6781206 seconds=518.4
+2026-10-18T23:03:36.332245+00:00 ENCODE fiqa qwen docs 41984/57638 tokens=6862648 seconds=524.6
+2026-10-18T23:03:42.926795+00:00 ENCODE fiqa qwen docs 42496/57638 tokens=6947090 seconds=531.2
+2026-10-18T23:03:49.649359+00:00 ENCODE fiqa qwen docs 43008/57638 tokens=7033513 seconds=537.9
+2026-10-18T23:03:56.025584+00:00 ENCODE fiqa qwen docs 43520/57638 tokens=7117462 seconds=544.3
+2026-10-18T23:04:02.655328+00:00 ENCODE fiqa qwen docs 44032/57638 tokens=7205351 seconds=550.9
+2026-10-18T23:04:09.133608+00:00 ENCODE fiqa qwen docs 44544/57638 tokens=7288194 seconds=557.4
+2026-10-18T23:04:15.737284+00:00 ENCODE fiqa qwen docs 45056/57638 tokens=7372919 seconds=564.0
+2026-10-18T23:04:22.588990+00:00 ENCODE fiqa qwen docs 45568/57638 tokens=7460610 seconds=570.8
+
+DONE False ERROR False
+    PID     ELAPSED COMMAND
+      1       27:08 /sbin/docker-init -- /datalab/run.sh
+      7       27:08 /tools/node/bin/node /datalab/web/app.js
+      9       27:08 /bin/bash -e /usr/local/colab/bin/oom_monitor.sh
+     11       27:08 /bin/bash -e /datalab/run.sh
+     12       27:08 /usr/colab/bin/kernel_manager_proxy --listen_port=6000 --target_port=9000 --logtostderr --listen_host=172.28.0.12 --target_host=172.28.0.12 --tunnel_background_save_url=https://colab.research.google.com/tun/m/cc48301118ce562b961b3c22d803539adc1e0c19/gpu-l4-s-kkb-ass1b0-1u2jk9hsjofxk --tunnel_background_save_delay=10s --tunnel_periodic_background_save_frequency=30m0s --enable_output_coalescing=true --output_coalescing_required=true --use_oneplatform_for_bg_save=true
+     49       27:07 tail -n +0 -F /root/.config/Google/DriveFS/Logs/dpb.txt
+     55       27:07 tail -n +0 -F /root/.config/Google/DriveFS/Logs/drive_fs.txt
+     93       27:06 [python3] <defunct>
+     94       27:06 python3 /usr/local/bin/colab-fileshim.py
+    133       27:05 sshd: /usr/sbin/sshd [listener] 0 of 1-1 startups
+    148       27:04 /usr/bin/python3 /usr/local/bin/jupyter-server --debug --transport="ipc" --ip=172.28.0.12 --ServerApp.token= --port=9000 --FileContentsManager.root_dir=/ --FileContentsManager.allow_hidden=True --ServerApp.log_format="|%(levelname)s|%(message)s" --ServerApp.iopub_data_rate_limit=1e10 --MappingKernelManager.root_dir=/content
+   2559       17:17 /usr/bin/python3 -m colab_kernel_launcher -f /root/.local/share/jupyter/runtime/kernel-41844168-5994-41dc-b87d-056e661a687f.json
+   2590       17:15 python3 -u run.py
+   6949       00:00 sleep 1
+   6951       00:00 ps -eo pid,etime,args
+
+
+2026-10-18T23:04:09.133608+00:00 ENCODE fiqa qwen docs 44544/57638 tokens=7288194 seconds=557.4
+2026-10-18T23:04:15.737284+00:00 ENCODE fiqa qwen docs 45056/57638 tokens=7372919 seconds=564.0
+2026-10-18T23:04:22.588990+00:00 ENCODE fiqa qwen docs 45568/57638 tokens=7460610 seconds=570.8
+2026-10-18T23:04:28.804915+00:00 ENCODE fiqa qwen docs 46080/57638 tokens=7543550 seconds=577.0
+2026-10-18T23:04:34.826493+00:00 ENCODE fiqa qwen docs 46592/57638 tokens=7625363 seconds=583.1
+2026-10-18T23:04:41.409424+00:00 ENCODE fiqa qwen docs 47104/57638 tokens=7707710 seconds=589.6
+2026-10-18T23:04:47.610145+00:00 ENCODE fiqa qwen docs 47616/57638 tokens=7791408 seconds=595.8
+2026-10-18T23:04:54.386511+00:00 ENCODE fiqa qwen docs 48128/57638 tokens=7880025 seconds=602.6
+2026-10-18T23:05:00.591663+00:00 ENCODE fiqa qwen docs 48640/57638 tokens=7962978 seconds=608.8
+2026-10-18T23:05:06.672546+00:00 ENCODE fiqa qwen docs 49152/57638 tokens=8042832 seconds=614.9
+2026-10-18T23:05:12.174935+00:00 ENCODE fiqa qwen docs 49664/57638 tokens=8120131 seconds=620.4
+2026-10-18T23:05:18.921686+00:00 ENCODE fiqa qwen docs 50176/57638 tokens=8205913 seconds=627.2
+
+DONE False ERROR False
+    PID     ELAPSED COMMAND
+      1       28:06 /sbin/docker-init -- /datalab/run.sh
+      7       28:06 /tools/node/bin/node /datalab/web/app.js
+      9       28:06 /bin/bash -e /usr/local/colab/bin/oom_monitor.sh
+     11       28:06 /bin/bash -e /datalab/run.sh
+     12       28:06 /usr/colab/bin/kernel_manager_proxy --listen_port=6000 --target_port=9000 --logtostderr --listen_host=172.28.0.12 --target_host=172.28.0.12 --tunnel_background_save_url=https://colab.research.google.com/tun/m/cc48301118ce562b961b3c22d803539adc1e0c19/gpu-l4-s-kkb-ass1b0-1u2jk9hsjofxk --tunnel_background_save_delay=10s --tunnel_periodic_background_save_frequency=30m0s --enable_output_coalescing=true --output_coalescing_required=true --use_oneplatform_for_bg_save=true
+     49       28:06 tail -n +0 -F /root/.config/Google/DriveFS/Logs/dpb.txt
+     55       28:06 tail -n +0 -F /root/.config/Google/DriveFS/Logs/drive_fs.txt
+     93       28:04 [python3] <defunct>
+     94       28:04 python3 /usr/local/bin/colab-fileshim.py
+    133       28:03 sshd: /usr/sbin/sshd [listener] 0 of 1-1 startups
+    148       28:02 /usr/bin/python3 /usr/local/bin/jupyter-server --debug --transport="ipc" --ip=172.28.0.12 --ServerApp.token= --port=9000 --FileContentsManager.root_dir=/ --FileContentsManager.allow_hidden=True --ServerApp.log_format="|%(levelname)s|%(message)s" --ServerApp.iopub_data_rate_limit=1e10 --MappingKernelManager.root_dir=/content
+   2559       18:15 /usr/bin/python3 -m colab_kernel_launcher -f /root/.local/share/jupyter/runtime/kernel-41844168-5994-41dc-b87d-056e661a687f.json
+   2590       18:13 python3 -u run.py
+   7186       00:00 sleep 1
+   7191       00:00 ps -eo pid,etime,args
+
+
+Current balance: 118.19 compute units
+Usage rate: 3.08/hr
+Active assignments: 2
+
+2026-10-18T23:05:25.062156+00:00 ENCODE fiqa qwen docs 50688/57638 tokens=8288144 seconds=633.3
+2026-10-18T23:05:31.102294+00:00 ENCODE fiqa qwen docs 51200/57638 tokens=8368561 seconds=639.3
+2026-10-18T23:05:37.070785+00:00 ENCODE fiqa qwen docs 51712/57638 tokens=8449560 seconds=645.3
+2026-10-18T23:05:43.383633+00:00 ENCODE fiqa qwen docs 52224/57638 tokens=8531464 seconds=651.6
+2026-10-18T23:05:50.569465+00:00 ENCODE fiqa qwen docs 52736/57638 tokens=8619735 seconds=658.8
+2026-10-18T23:05:56.434143+00:00 ENCODE fiqa qwen docs 53248/57638 tokens=8699546 seconds=664.7
+2026-10-18T23:06:02.695627+00:00 ENCODE fiqa qwen docs 53760/57638 tokens=8782500 seconds=670.9
+2026-10-18T23:06:09.183844+00:00 ENCODE fiqa qwen docs 54272/57638 tokens=8864791 seconds=677.4
+2026-10-18T23:06:15.202136+00:00 ENCODE fiqa qwen docs 54784/57638 tokens=8944471 seconds=683.4
+2026-10-18T23:06:21.454080+00:00 ENCODE fiqa qwen docs 55296/57638 tokens=9027307 seconds=689.7
+2026-10-18T23:06:27.352631+00:00 ENCODE fiqa qwen docs 55808/57638 tokens=9107991 seconds=695.6
+2026-10-18T23:06:34.092530+00:00 ENCODE fiqa qwen docs 56320/57638 tokens=9192975 seconds=702.3
+
+DONE False ERROR False
+    PID     ELAPSED COMMAND
+      1       29:23 /sbin/docker-init -- /datalab/run.sh
+      7       29:23 /tools/node/bin/node /datalab/web/app.js
+      9       29:23 /bin/bash -e /usr/local/colab/bin/oom_monitor.sh
+     11       29:23 /bin/bash -e /datalab/run.sh
+     12       29:23 /usr/colab/bin/kernel_manager_proxy --listen_port=6000 --target_port=9000 --logtostderr --listen_host=172.28.0.12 --target_host=172.28.0.12 --tunnel_background_save_url=https://colab.research.google.com/tun/m/cc48301118ce562b961b3c22d803539adc1e0c19/gpu-l4-s-kkb-ass1b0-1u2jk9hsjofxk --tunnel_background_save_delay=10s --tunnel_periodic_background_save_frequency=30m0s --enable_output_coalescing=true --output_coalescing_required=true --use_oneplatform_for_bg_save=true
+     49       29:22 tail -n +0 -F /root/.config/Google/DriveFS/Logs/dpb.txt
+     55       29:22 tail -n +0 -F /root/.config/Google/DriveFS/Logs/drive_fs.txt
+     93       29:21 [python3] <defunct>
+     94       29:21 python3 /usr/local/bin/colab-fileshim.py
+    133       29:20 sshd: /usr/sbin/sshd [listener] 0 of 1-1 startups
+    148       29:19 /usr/bin/python3 /usr/local/bin/jupyter-server --debug --transport="ipc" --ip=172.28.0.12 --ServerApp.token= --port=9000 --FileContentsManager.root_dir=/ --FileContentsManager.allow_hidden=True --ServerApp.log_format="|%(levelname)s|%(message)s" --ServerApp.iopub_data_rate_limit=1e10 --MappingKernelManager.root_dir=/content
+   2559       19:32 /usr/bin/python3 -m colab_kernel_launcher -f /root/.local/share/jupyter/runtime/kernel-41844168-5994-41dc-b87d-056e661a687f.json
+   2590       19:30 python3 -u run.py
+   7502       00:00 sleep 1
+   7504       00:00 ps -eo pid,etime,args
+
+
+2026-10-18T23:07:03.005937+00:00 ENCODE nfcorpus bge docs 512/3633 tokens=178324 seconds=3.6
+2026-10-18T23:07:06.629888+00:00 ENCODE nfcorpus bge docs 1024/3633 tokens=357965 seconds=7.2
+2026-10-18T23:07:10.143290+00:00 ENCODE nfcorpus bge docs 1536/3633 tokens=532832 seconds=10.8
+2026-10-18T23:07:13.698961+00:00 ENCODE nfcorpus bge docs 2048/3633 tokens=709708 seconds=14.3
+2026-10-18T23:07:17.373625+00:00 ENCODE nfcorpus bge docs 2560/3633 tokens=892050 seconds=18.0
+2026-10-18T23:07:20.984580+00:00 ENCODE nfcorpus bge docs 3072/3633 tokens=1069183 seconds=21.6
+2026-10-18T23:07:24.601425+00:00 ENCODE nfcorpus bge docs 3584/3633 tokens=1247469 seconds=25.2
+2026-10-18T23:07:24.984952+00:00 ENCODE nfcorpus bge docs 3633/3633 tokens=1264140 seconds=25.6
+2026-10-18T23:07:25.172503+00:00 ENCODE nfcorpus bge queries 323/323 tokens=4844 seconds=0.2
+2026-10-18T23:07:25.264574+00:00 DONE nfcorpus bge: {'seconds': 26.877150535583496, 'encode_seconds': {'docs': 25.594600677490234, 'queries': 0.18613123893737793}, 'search_seconds': 0.09136462211608887, 'input_tokens_truncated_nonpadding': 1268984, 'tokens_by_kind': {'docs': 1264140, 'queries': 4844}, 'output_tokens': 0, 'model': 'BAAI/bge-small-en-v1.5', 'revision': '5c38ec7c405ec4b44b94cc5a9bb96e735b38267a', 'max_seq_length': 512, 'resumed_chunks_included_in_token_total': True}
+
+Loading weights:   0%|          | 0/310 [00:00<?, ?it/s]
+Loading weights:   0%|          | 1/310 [00:00<00:39,  7.81it/s]
+Loading weights: 100%|██████████| 310/310 [00:00<00:00, 1511.49it/s]
+2026-10-18T23:07:43.072147+00:00 ENCODE nfcorpus qwen docs 512/3633 tokens=176624 seconds=13.8
+
+DONE False ERROR False
+    PID     ELAPSED COMMAND
+      1       30:32 /sbin/docker-init -- /datalab/run.sh
+      7       30:31 /tools/node/bin/node /datalab/web/app.js
+      9       30:31 /bin/bash -e /usr/local/colab/bin/oom_monitor.sh
+     11       30:31 /bin/bash -e /datalab/run.sh
+     12       30:31 /usr/colab/bin/kernel_manager_proxy --listen_port=6000 --target_port=9000 --logtostderr --listen_host=172.28.0.12 --target_host=172.28.0.12 --tunnel_background_save_url=https://colab.research.google.com/tun/m/cc48301118ce562b961b3c22d803539adc1e0c19/gpu-l4-s-kkb-ass1b0-1u2jk9hsjofxk --tunnel_background_save_delay=10s --tunnel_periodic_background_save_frequency=30m0s --enable_output_coalescing=true --output_coalescing_required=true --use_oneplatform_for_bg_save=true
+     49       30:31 tail -n +0 -F /root/.config/Google/DriveFS/Logs/dpb.txt
+     55       30:31 tail -n +0 -F /root/.config/Google/DriveFS/Logs/drive_fs.txt
+     93       30:29 [python3] <defunct>
+     94       30:29 python3 /usr/local/bin/colab-fileshim.py
+    133       30:29 sshd: /usr/sbin/sshd [listener] 0 of 1-1 startups
+    148       30:28 /usr/bin/python3 /usr/local/bin/jupyter-server --debug --transport="ipc" --ip=172.28.0.12 --ServerApp.token= --port=9000 --FileContentsManager.root_dir=/ --FileContentsManager.allow_hidden=True --ServerApp.log_format="|%(levelname)s|%(message)s" --ServerApp.iopub_data_rate_limit=1e10 --MappingKernelManager.root_dir=/content
+   2559       20:40 /usr/bin/python3 -m colab_kernel_launcher -f /root/.local/share/jupyter/runtime/kernel-41844168-5994-41dc-b87d-056e661a687f.json
+   2590       20:38 python3 -u run.py
+   7794       00:00 sleep 1
+   7796       00:00 ps -eo pid,etime,args
+
+
+2026-10-18T23:07:17.373625+00:00 ENCODE nfcorpus bge docs 2560/3633 tokens=892050 seconds=18.0
+2026-10-18T23:07:20.984580+00:00 ENCODE nfcorpus bge docs 3072/3633 tokens=1069183 seconds=21.6
+2026-10-18T23:07:24.601425+00:00 ENCODE nfcorpus bge docs 3584/3633 tokens=1247469 seconds=25.2
+2026-10-18T23:07:24.984952+00:00 ENCODE nfcorpus bge docs 3633/3633 tokens=1264140 seconds=25.6
+2026-10-18T23:07:25.172503+00:00 ENCODE nfcorpus bge queries 323/323 tokens=4844 seconds=0.2
+2026-10-18T23:07:25.264574+00:00 DONE nfcorpus bge: {'seconds': 26.877150535583496, 'encode_seconds': {'docs': 25.594600677490234, 'queries': 0.18613123893737793}, 'search_seconds': 0.09136462211608887, 'input_tokens_truncated_nonpadding': 1268984, 'tokens_by_kind': {'docs': 1264140, 'queries': 4844}, 'output_tokens': 0, 'model': 'BAAI/bge-small-en-v1.5', 'revision': '5c38ec7c405ec4b44b94cc5a9bb96e735b38267a', 'max_seq_length': 512, 'resumed_chunks_included_in_token_total': True}
+
+Loading weights:   0%|          | 0/310 [00:00<?, ?it/s]
+Loading weights:   0%|          | 1/310 [00:00<00:39,  7.81it/s]
+Loading weights: 100%|██████████| 310/310 [00:00<00:00, 1511.49it/s]
+2026-10-18T23:07:43.072147+00:00 ENCODE nfcorpus qwen docs 512/3633 tokens=176624 seconds=13.8
+2026-10-18T23:07:57.219032+00:00 ENCODE nfcorpus qwen docs 1024/3633 tokens=355182 seconds=27.9
+2026-10-18T23:08:10.644368+00:00 ENCODE nfcorpus qwen docs 1536/3633 tokens=527449 seconds=41.3
+2026-10-18T23:08:24.436930+00:00 ENCODE nfcorpus qwen docs 2048/3633 tokens=702601 seconds=55.1
+2026-10-18T23:08:38.717832+00:00 ENCODE nfcorpus qwen docs 2560/3633 tokens=883156 seconds=69.4
+
+DONE False ERROR False
+    PID     ELAPSED COMMAND
+      1       31:33 /sbin/docker-init -- /datalab/run.sh
+      7       31:33 /tools/node/bin/node /datalab/web/app.js
+      9       31:32 /bin/bash -e /usr/local/colab/bin/oom_monitor.sh
+     11       31:32 /bin/bash -e /datalab/run.sh
+     12       31:32 /usr/colab/bin/kernel_manager_proxy --listen_port=6000 --target_port=9000 --logtostderr --listen_host=172.28.0.12 --target_host=172.28.0.12 --tunnel_background_save_url=https://colab.research.google.com/tun/m/cc48301118ce562b961b3c22d803539adc1e0c19/gpu-l4-s-kkb-ass1b0-1u2jk9hsjofxk --tunnel_background_save_delay=10s --tunnel_periodic_background_save_frequency=30m0s --enable_output_coalescing=true --output_coalescing_required=true --use_oneplatform_for_bg_save=true
+     49       31:32 tail -n +0 -F /root/.config/Google/DriveFS/Logs/dpb.txt
+     55       31:32 tail -n +0 -F /root/.config/Google/DriveFS/Logs/drive_fs.txt
+     93       31:30 [python3] <defunct>
+     94       31:30 python3 /usr/local/bin/colab-fileshim.py
+    133       31:30 sshd: /usr/sbin/sshd [listener] 0 of 1-1 startups
+    148       31:29 /usr/bin/python3 /usr/local/bin/jupyter-server --debug --transport="ipc" --ip=172.28.0.12 --ServerApp.token= --port=9000 --FileContentsManager.root_dir=/ --FileContentsManager.allow_hidden=True --ServerApp.log_format="|%(levelname)s|%(message)s" --ServerApp.iopub_data_rate_limit=1e10 --MappingKernelManager.root_dir=/content
+   2559       21:42 /usr/bin/python3 -m colab_kernel_launcher -f /root/.local/share/jupyter/runtime/kernel-41844168-5994-41dc-b87d-056e661a687f.json
+   2590       21:40 python3 -u run.py
+   8046       00:00 sleep 1
+   8048       00:00 ps -eo pid,etime,args

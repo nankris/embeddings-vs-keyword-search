@@ -1,0 +1,13 @@
+{
+  "started": 1792363594.4318912,
+  "next_attempt": 1792363901.7898567,
+  "attempts": 1,
+  "prior_waits": [
+    {
+      "started": 1792352174.755692,
+      "next_attempt": 1792354444.271449,
+      "attempts": 7
+    }
+  ],
+  "resume_reason": "User resumed experiment; no active sessions and balance above floor"
+}

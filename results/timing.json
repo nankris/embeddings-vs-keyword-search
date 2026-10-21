@@ -1,0 +1,25 @@
+{
+  "estimated_minutes": {
+    "setup": 15,
+    "training_eval": 65,
+    "writeup": 20,
+    "total": 100
+  },
+  "start_ist": "2026-10-19T01:00:15.117879+05:30",
+  "GPU": "NVIDIA L4",
+  "resume_ist": "2026-10-19T04:17:18.704499+05:30",
+  "prior_interruption_note": "Initial GPU allocation attempts found both slots occupied. Resumed with no active sessions; original start retained for elapsed wall time.",
+  "pilot_frozen_utc": "2026-10-18T22:50:59.251183+00:00",
+  "eval_start_unix": 1792365416.4006057,
+  "eval_end_unix": 1792365476.1088636,
+  "end_ist": "2026-10-19T04:49:21.639650+05:30",
+  "actual_minutes": 229.10869618256888,
+  "stage_minutes": {
+    "setup": 196.56897354920707,
+    "GPU_run": 30.11907189687093,
+    "eval": 0.995137631893158,
+    "writeup": 1.4255131045977274
+  },
+  "stage_accounting_note": "Elapsed phases, not exclusive active labor: setup includes initial setup, GPU-slot queue, interruption between attempts and post-stop sync. GPU phase includes detached inference, scoring, polling and concurrent report preparation. Eval is local audits/statistics/chart generation; writeup is final publication preparation.",
+  "colab_CU_estimated": 0.773056178686354
+}
