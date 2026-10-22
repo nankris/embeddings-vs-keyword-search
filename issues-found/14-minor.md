@@ -1,0 +1,10 @@
+# 14: Minor
+
+- **Study:** [hybrid search on fresh datasets](../hybrid-search-fresh/)
+- **Found by:** an independent read-only review of this repo on 21 Oct 2026. Numbers and paths below were checked against the repo's results files.
+
+## Issue and evidence
+Minor: the blog quotes the RRF paper's "consistently yields better results than any individual system" as a foil. Reasonable but slightly strawman-ish, since that paper fused many systems of similar strength.
+
+## Status
+Open, documented. Nothing in the results was changed because of it. The README and writeup state where it changes how the result should be read. Any fix needs a new pre-registered run on fresh data, not an edit to these numbers.
